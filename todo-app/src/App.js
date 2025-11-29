@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 dark:from-blue-950 dark:via-blue-900 dark:to-blue-950 transition-colors duration-300">
         <div className="container mx-auto px-4 py-8 max-w-2xl">
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-4xl font-bold text-gray-800 dark:text-white">
@@ -72,7 +72,7 @@ function App() {
             </h1>
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="p-3 rounded-full bg-white dark:bg-gray-700 shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-110"
+              className="p-3 rounded-full bg-white dark:bg-blue-800 shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-110"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
@@ -94,18 +94,18 @@ function App() {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 placeholder="What needs to be done?"
-                className="flex-1 px-6 py-4 text-lg rounded-2xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white placeholder-gray-400 dark:placeholder-gray-400 focus:outline-none focus:border-indigo-500 dark:focus:border-indigo-400 transition-colors duration-200 shadow-sm"
+                className="flex-1 px-6 py-4 text-lg rounded-2xl border-2 border-gray-200 dark:border-blue-700 bg-white dark:bg-blue-800 text-gray-800 dark:text-white placeholder-gray-400 dark:placeholder-gray-400 focus:outline-none focus:border-blue-600 dark:focus:border-blue-400 transition-colors duration-200 shadow-sm"
               />
               <button
                 type="submit"
-                className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-2xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95"
+                className="px-8 py-4 bg-blue-700 hover:bg-blue-800 text-white font-semibold rounded-2xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95"
               >
                 Add
               </button>
             </div>
           </form>
 
-          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden transition-colors duration-300">
+          <div className="bg-white dark:bg-blue-900 rounded-2xl shadow-xl overflow-hidden transition-colors duration-300">
             {filteredTodos.length === 0 ? (
               <div className="p-12 text-center">
                 <div className="text-6xl mb-4">
@@ -120,20 +120,20 @@ function App() {
                 </p>
               </div>
             ) : (
-              <ul className="divide-y divide-gray-100 dark:divide-gray-700">
+              <ul className="divide-y divide-gray-100 dark:divide-blue-800">
                 {filteredTodos.map((todo) => (
                   <li
                     key={todo.id}
-                    className="group hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-150"
+                    className="group hover:bg-gray-50 dark:hover:bg-blue-800 transition-colors duration-150"
                   >
                     <div className="flex items-center gap-4 p-4">
                       <button
                         onClick={() => toggleTodo(todo.id)}
-                        className="flex-shrink-0 w-6 h-6 rounded-full border-2 border-gray-300 dark:border-gray-500 hover:border-indigo-500 dark:hover:border-indigo-400 transition-all duration-200 flex items-center justify-center"
+                        className="flex-shrink-0 w-6 h-6 rounded-full border-2 border-gray-300 dark:border-blue-400 hover:border-blue-600 dark:hover:border-blue-300 transition-all duration-200 flex items-center justify-center"
                         aria-label={todo.completed ? 'Mark as incomplete' : 'Mark as complete'}
                       >
                         {todo.completed && (
-                          <svg className="w-4 h-4 text-indigo-600 dark:text-indigo-400" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-blue-600 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                         )}
@@ -163,7 +163,7 @@ function App() {
             )}
 
             {todos.length > 0 && (
-              <div className="border-t border-gray-100 dark:border-gray-700 p-4 flex flex-wrap items-center justify-between gap-4 bg-gray-50 dark:bg-gray-750">
+              <div className="border-t border-gray-100 dark:border-blue-800 p-4 flex flex-wrap items-center justify-between gap-4 bg-gray-50 dark:bg-blue-950">
                 <span className="text-sm text-gray-600 dark:text-gray-400">
                   {activeTodosCount} {activeTodosCount === 1 ? 'item' : 'items'} left
                 </span>
@@ -173,8 +173,8 @@ function App() {
                     onClick={() => setFilter('all')}
                     className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                       filter === 'all'
-                        ? 'bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        ? 'bg-blue-100 dark:bg-blue-700 text-blue-700 dark:text-blue-100'
+                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-blue-800'
                     }`}
                   >
                     All
@@ -183,8 +183,8 @@ function App() {
                     onClick={() => setFilter('active')}
                     className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                       filter === 'active'
-                        ? 'bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        ? 'bg-blue-100 dark:bg-blue-700 text-blue-700 dark:text-blue-100'
+                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-blue-800'
                     }`}
                   >
                     Active
@@ -193,8 +193,8 @@ function App() {
                     onClick={() => setFilter('completed')}
                     className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                       filter === 'completed'
-                        ? 'bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        ? 'bg-blue-100 dark:bg-blue-700 text-blue-700 dark:text-blue-100'
+                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-blue-800'
                     }`}
                   >
                     Completed
