@@ -1,0 +1,116 @@
+{
+  "document_type": "Literature/Short Story Collection",
+  "sections": [
+    {
+      "type": "story_title",
+      "line_number": 0,
+      "content": "1/I SELL MY DREAMS"
+    },
+    {
+      "type": "heading",
+      "line_number": 2,
+      "content": "INTRODUCTION"
+    },
+    {
+      "type": "heading",
+      "line_number": 24,
+      "content": "2/KALEIDOSCOPE"
+    },
+    {
+      "type": "story_title",
+      "line_number": 57,
+      "content": "3/I SELL MY DREAMS"
+    },
+    {
+      "type": "heading",
+      "line_number": 99,
+      "content": "4/KALEIDOSCOPE"
+    },
+    {
+      "type": "story_title",
+      "line_number": 140,
+      "content": "5/I SELL MY DREAMS"
+    },
+    {
+      "type": "heading",
+      "line_number": 178,
+      "content": "6/KALEIDOSCOPE"
+    },
+    {
+      "type": "story_title",
+      "line_number": 219,
+      "content": "7/I SELL MY DREAMS"
+    },
+    {
+      "type": "heading",
+      "line_number": 261,
+      "content": "8/KALEIDOSCOPE"
+    },
+    {
+      "type": "story_title",
+      "line_number": 300,
+      "content": "9/I SELL MY DREAMS"
+    },
+    {
+      "type": "activity_section",
+      "line_number": 313,
+      "content": "Understanding the Text"
+    },
+    {
+      "type": "activity_section",
+      "line_number": 318,
+      "content": "Talking about the Text"
+    },
+    {
+      "type": "heading",
+      "line_number": 336,
+      "content": "10/KALEIDOSCOPE"
+    },
+    {
+      "type": "story_title",
+      "line_number": 375,
+      "content": "11/I SELL MY DREAMS"
+    },
+    {
+      "type": "heading",
+      "line_number": 376,
+      "content": "TASK"
+    },
+    {
+      "type": "heading",
+      "line_number": 402,
+      "content": "TASK"
+    }
+  ],
+  "section_count": 16,
+  "themes": [
+    "Dreams",
+    "Storytelling",
+    "Character Development",
+    "Plot Structure"
+  ],
+  "authors_mentioned": [
+    "Gabriel Garcia Marquez",
+    "Gabriel Garcia Marquez\nLove",
+    "Latin American"
+  ],
+  "has_comprehension_questions": true,
+  "potential_characters": {
+    "Frau": 13,
+    "Frieda": 13,
+    "Vienna": 12,
+    "Reprint": 11,
+    "Neruda": 9,
+    "Havana": 8,
+    "Riviera": 6,
+    "Her": 6,
+    "Marquez": 5,
+    "One": 5
+  },
+  "content_structure": {
+    "has_introduction": true,
+    "has_glossary": false,
+    "has_exercises": false,
+    "has_references": false
+  }
+}

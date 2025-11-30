@@ -1,0 +1,169 @@
+{
+  "total_words": 3512,
+  "unique_words": 1068,
+  "vocabulary_richness": 0.3041002277904328,
+  "most_common_words": [
+    [
+      "the",
+      235
+    ],
+    [
+      "and",
+      97
+    ],
+    [
+      "a",
+      95
+    ],
+    [
+      "in",
+      92
+    ],
+    [
+      "of",
+      86
+    ],
+    [
+      "to",
+      72
+    ],
+    [
+      "her",
+      63
+    ],
+    [
+      "she",
+      59
+    ],
+    [
+      "i",
+      58
+    ],
+    [
+      "that",
+      51
+    ],
+    [
+      "was",
+      43
+    ],
+    [
+      "he",
+      36
+    ],
+    [
+      "had",
+      34
+    ],
+    [
+      "with",
+      32
+    ],
+    [
+      "for",
+      31
+    ],
+    [
+      "on",
+      31
+    ],
+    [
+      "at",
+      29
+    ],
+    [
+      "it",
+      24
+    ],
+    [
+      "his",
+      24
+    ],
+    [
+      "one",
+      21
+    ],
+    [
+      "dreams",
+      19
+    ],
+    [
+      "about",
+      19
+    ],
+    [
+      "as",
+      18
+    ],
+    [
+      "by",
+      18
+    ],
+    [
+      "did",
+      18
+    ],
+    [
+      "from",
+      17
+    ],
+    [
+      "were",
+      17
+    ],
+    [
+      "an",
+      17
+    ],
+    [
+      "said",
+      17
+    ],
+    [
+      "not",
+      16
+    ]
+  ],
+  "total_sentences": 174,
+  "avg_sentence_length": 20.155172413793103,
+  "headings": [
+    "INTRODUCTION",
+    "TASK",
+    "TASK"
+  ],
+  "story_markers": [
+    "SELL MY DREAMS",
+    "SELL MY DREAMS",
+    "SELL MY DREAMS",
+    "SELL MY DREAMS",
+    "SELL MY DREAMS",
+    "SELL MY DREAMS"
+  ],
+  "questions_found": 8,
+  "sample_questions": [
+    "Riviera Hotel after the storm?",
+    "again?",
+    "him was looking at him?",
+    "to clairvoyance?",
+    "1. Did the author believe in the prophetic ability of Frau Frieda?",
+    "for surviving?",
+    "3. Why does the author compare Neruda to a Renaissance pope?",
+    "imagination and reality. Do you think that this story illustrates this?"
+  ],
+  "paragraph_count": 1,
+  "avg_paragraph_length": 3503.0,
+  "page_word_distribution": [
+    160,
+    282,
+    409,
+    387,
+    340,
+    360,
+    379,
+    337,
+    284,
+    289,
+    276
+  ],
+  "avg_words_per_page": 318.45454545454544
+}
