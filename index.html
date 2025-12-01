@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Mini Militia - 2D Shooter Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Menu Screen -->
+        <div id="menuScreen" class="screen active">
+            <div class="menu-content">
+                <h1 class="game-title">MINI MILITIA</h1>
+                <p class="game-subtitle">2D Shooter Arena</p>
+                <div id="highScore" class="high-score">High Score: 0</div>
+                <button id="startButton" class="btn btn-primary">START GAME</button>
+                <div class="controls-info">
+                    <h3>Controls</h3>
+                    <p><strong>Desktop:</strong> WASD/Arrows to move, Mouse to aim, Click to shoot</p>
+                    <p><strong>Mobile:</strong> Use joysticks and buttons</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="gameScreen" class="screen">
+            <canvas id="gameCanvas"></canvas>
+            
+            <!-- HUD -->
+            <div class="hud">
+                <div class="hud-item">
+                    <span class="hud-label">Health</span>
+                    <div class="health-bar">
+                        <div id="healthFill" class="health-fill"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <span class="hud-label">Ammo</span>
+                    <span id="ammoCount" class="hud-value">30</span>
+                </div>
+                <div class="hud-item">
+                    <span class="hud-label">Score</span>
+                    <span id="scoreDisplay" class="hud-value">0</span>
+                </div>
+                <div class="hud-item">
+                    <span class="hud-label">Enemies</span>
+                    <span id="enemyCount" class="hud-value">0</span>
+                </div>
+            </div>
+
+            <!-- Mobile Controls -->
+            <div class="mobile-controls">
+                <!-- Left Joystick (Movement) -->
+                <div id="leftJoystick" class="joystick joystick-left">
+                    <div class="joystick-base">
+                        <div class="joystick-handle"></div>
+                    </div>
+                </div>
+
+                <!-- Right Joystick (Aiming) -->
+                <div id="rightJoystick" class="joystick joystick-right">
+                    <div class="joystick-base">
+                        <div class="joystick-handle"></div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button id="jumpButton" class="action-btn jump-btn">JUMP</button>
+                    <button id="shootButton" class="action-btn shoot-btn">SHOOT</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="gameOverScreen" class="screen">
+            <div class="menu-content">
+                <h1 class="game-title">GAME OVER</h1>
+                <p id="finalScore" class="final-score">Score: 0</p>
+                <button id="restartButton" class="btn btn-primary">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
