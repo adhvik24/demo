@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    color: #fff;
+}
+
+.game-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Screens */
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* Menu Content */
+.menu-content {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.game-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.game-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.high-score {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.final-score {
+    font-size: 2rem;
+    margin: 30px 0;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(245, 87, 108, 0.6);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Controls Info */
+.controls-info {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.controls-info h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.controls-info p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* Canvas */
+#gameCanvas {
+    display: block;
+    background: #87CEEB;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* HUD */
+.hud {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.hud-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.hud-label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.hud-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Health Bar */
+.health-bar {
+    width: 150px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.health-fill {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%);
+    transition: width 0.3s ease;
+}
+
+/* Mobile Controls */
+.mobile-controls {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.joystick {
+    position: absolute;
+    pointer-events: all;
+}
+
+.joystick-left {
+    bottom: 30px;
+    left: 30px;
+}
+
+.joystick-right {
+    bottom: 30px;
+    right: 30px;
+}
+
+.joystick-base {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.joystick-handle {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background 0.1s ease;
+}
+
+.joystick-base:active .joystick-handle {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Action Buttons */
+.action-buttons {
+    position: absolute;
+    bottom: 170px;
+    right: 30px;
+    display: flex;
+    gap: 15px;
+    pointer-events: all;
+}
+
+.action-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    backdrop-filter: blur(5px);
+    text-transform: uppercase;
+}
+
+.jump-btn {
+    background: rgba(52, 152, 219, 0.6);
+}
+
+.jump-btn:active {
+    background: rgba(52, 152, 219, 0.9);
+    transform: scale(0.95);
+}
+
+.shoot-btn {
+    background: rgba(231, 76, 60, 0.6);
+}
+
+.shoot-btn:active {
+    background: rgba(231, 76, 60, 0.9);
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .game-title {
+        font-size: 2.5rem;
+    }
+
+    .game-subtitle {
+        font-size: 1rem;
+    }
+
+    .menu-content {
+        padding: 20px;
+    }
+
+    .controls-info {
+        font-size: 0.8rem;
+    }
+
+    .hud {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        gap: 8px;
+    }
+
+    .hud-item {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .health-bar {
+        width: 100px;
+        height: 15px;
+    }
+
+    .mobile-controls {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .game-title {
+        font-size: 2rem;
+    }
+
+    .joystick-base {
+        width: 100px;
+        height: 100px;
+    }
+
+    .joystick-handle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .action-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 0.7rem;
+    }
+
+    .action-buttons {
+        bottom: 140px;
+    }
+}
+
+/* Touch device detection */
+@media (hover: none) and (pointer: coarse) {
+    .mobile-controls {
+        display: block;
+    }
+}
