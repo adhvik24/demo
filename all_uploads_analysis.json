@@ -1,0 +1,35 @@
+{
+  "commits.png": {
+    "filename": "commits.png",
+    "file_size_bytes": 175576,
+    "file_size_kb": 171.46,
+    "dimensions": "2704x612",
+    "width": 2704,
+    "height": 612,
+    "format": "PNG",
+    "color_mode": "RGBA",
+    "content_type": "Commit History - Likely shows git commit logs or version control information"
+  },
+  "error.png": {
+    "filename": "error.png",
+    "file_size_bytes": 201547,
+    "file_size_kb": 196.82,
+    "dimensions": "1992x956",
+    "width": 1992,
+    "height": 956,
+    "format": "PNG",
+    "color_mode": "RGBA",
+    "content_type": "Error/Debug Screenshot - Likely contains error messages or debugging information"
+  },
+  "test.png": {
+    "filename": "test.png",
+    "file_size_bytes": 236822,
+    "file_size_kb": 231.27,
+    "dimensions": "3344x1708",
+    "width": 3344,
+    "height": 1708,
+    "format": "PNG",
+    "color_mode": "RGBA",
+    "content_type": "Test Screenshot - Likely contains testing interface or test results"
+  }
+}
