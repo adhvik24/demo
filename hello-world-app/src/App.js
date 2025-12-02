@@ -35,11 +35,17 @@ function App() {
 
             {/* Hello World Text */}
             <h1 className="text-7xl md:text-8xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent animate-gradient">
-              Hello World
+              नमस्ते दुनिया
             </h1>
+            <h2 className="text-4xl md:text-5xl font-semibold text-blue-200 dark:text-gray-300 mt-4">
+              Hello World
+            </h2>
 
             {/* Subtitle */}
             <p className="text-xl md:text-2xl text-blue-100 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
+              आपके सुंदर React एप्लिकेशन में आपका स्वागत है
+            </p>
+            <p className="text-lg md:text-xl text-blue-200 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed mt-2">
               Welcome to your beautiful React application with Tailwind CSS
             </p>
 
@@ -55,19 +61,19 @@ function App() {
               <div className="bg-blue-800 dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-4xl mb-4">⚛️</div>
                 <h3 className="text-lg font-semibold text-white dark:text-white mb-2">React</h3>
-                <p className="text-blue-200 dark:text-gray-400 text-sm">Modern JavaScript library for building user interfaces</p>
+                <p className="text-blue-200 dark:text-gray-400 text-sm">यूजर इंटरफेस बनाने के लिए आधुनिक JavaScript लाइब्रेरी</p>
               </div>
               
               <div className="bg-blue-800 dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-4xl mb-4">🎨</div>
                 <h3 className="text-lg font-semibold text-white dark:text-white mb-2">Tailwind CSS</h3>
-                <p className="text-blue-200 dark:text-gray-400 text-sm">Utility-first CSS framework for rapid UI development</p>
+                <p className="text-blue-200 dark:text-gray-400 text-sm">तेज़ UI विकास के लिए उपयोगिता-प्रथम CSS फ्रेमवर्क</p>
               </div>
               
               <div className="bg-blue-800 dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-4xl mb-4">✨</div>
-                <h3 className="text-lg font-semibold text-white dark:text-white mb-2">Beautiful</h3>
-                <p className="text-blue-200 dark:text-gray-400 text-sm">Clean, modern design with smooth animations</p>
+                <h3 className="text-lg font-semibold text-white dark:text-white mb-2">सुंदर</h3>
+                <p className="text-blue-200 dark:text-gray-400 text-sm">स्मूथ एनिमेशन के साथ साफ, आधुनिक डिज़ाइन</p>
               </div>
             </div>
           </div>
