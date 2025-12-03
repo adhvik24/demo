@@ -1,0 +1,304 @@
+{
+  "analysis_metadata": {
+    "generated_date": "2025-12-03",
+    "database_platform": "Upstash MongoDB",
+    "access_mode": "read-only",
+    "analyst": "Blackbox AI"
+  },
+  "database_overview": {
+    "total_databases": 4,
+    "databases": [
+      {
+        "name": "sample_mflix",
+        "size_bytes": 123629568,
+        "size_mb": 117.9,
+        "collections": 6,
+        "total_documents": 67661,
+        "indexes": 10,
+        "avg_object_size_bytes": 1494.35
+      },
+      {
+        "name": "test",
+        "size_bytes": 184320,
+        "size_mb": 0.18,
+        "collections": 1,
+        "total_documents": 1000,
+        "indexes": 1,
+        "avg_object_size_bytes": 215.97
+      },
+      {
+        "name": "admin",
+        "size_bytes": 356352,
+        "size_mb": 0.34
+      },
+      {
+        "name": "local",
+        "size_bytes": 6250864640,
+        "size_mb": 5961.6
+      }
+    ]
+  },
+  "movies_collection": {
+    "database": "sample_mflix",
+    "collection": "movies",
+    "total_documents": 21349,
+    "schema_fields": 22,
+    "indexes": [
+      {
+        "name": "_id_",
+        "type": "primary",
+        "key": {"_id": 1}
+      },
+      {
+        "name": "cast_text_fullplot_text_genres_text_title_text",
+        "type": "text_search",
+        "fields": ["cast", "fullplot", "genres", "title"]
+      }
+    ],
+    "rating_statistics": {
+      "average_imdb_rating": 6.66,
+      "min_rating": 1.6,
+      "max_rating": 10.0,
+      "total_rated_movies": 21349
+    },
+    "genres": [
+      {"genre": "Drama", "count": 12385, "avg_rating": 6.80, "percentage": 58.0},
+      {"genre": "Comedy", "count": 6532, "avg_rating": 6.45, "percentage": 30.6},
+      {"genre": "Romance", "count": 3318, "avg_rating": 6.66, "percentage": 15.5},
+      {"genre": "Crime", "count": 2457, "avg_rating": 6.69, "percentage": 11.5},
+      {"genre": "Thriller", "count": 2454, "avg_rating": 6.30, "percentage": 11.5},
+      {"genre": "Action", "count": 2381, "avg_rating": 6.35, "percentage": 11.2},
+      {"genre": "Adventure", "count": 1900, "avg_rating": 6.49, "percentage": 8.9},
+      {"genre": "Documentary", "count": 1834, "avg_rating": 7.37, "percentage": 8.6},
+      {"genre": "Horror", "count": 1470, "avg_rating": 5.78, "percentage": 6.9},
+      {"genre": "Biography", "count": 1269, "avg_rating": 7.09, "percentage": 5.9},
+      {"genre": "Family", "count": 1249, "avg_rating": 6.33, "percentage": 5.8},
+      {"genre": "Mystery", "count": 1139, "avg_rating": 6.53, "percentage": 5.3},
+      {"genre": "Fantasy", "count": 1055, "avg_rating": 6.38, "percentage": 4.9},
+      {"genre": "Sci-Fi", "count": 958, "avg_rating": 6.12, "percentage": 4.5},
+      {"genre": "Animation", "count": 912, "avg_rating": 6.90, "percentage": 4.3}
+    ],
+    "top_countries": [
+      {"country": "USA", "count": 10921, "percentage": 51.2},
+      {"country": "UK", "count": 2652, "percentage": 12.4},
+      {"country": "France", "count": 2647, "percentage": 12.4},
+      {"country": "Germany", "count": 1494, "percentage": 7.0},
+      {"country": "Canada", "count": 1260, "percentage": 5.9},
+      {"country": "Italy", "count": 1217, "percentage": 5.7},
+      {"country": "Japan", "count": 786, "percentage": 3.7},
+      {"country": "Spain", "count": 675, "percentage": 3.2},
+      {"country": "India", "count": 564, "percentage": 2.6},
+      {"country": "Australia", "count": 470, "percentage": 2.2}
+    ],
+    "top_directors": [
+      {"director": "Woody Allen", "movie_count": 40, "avg_rating": 7.22},
+      {"director": "Martin Scorsese", "movie_count": 32, "avg_rating": 7.64},
+      {"director": "Takashi Miike", "movie_count": 31, "avg_rating": 6.84},
+      {"director": "Steven Spielberg", "movie_count": 29, "avg_rating": 7.48},
+      {"director": "John Ford", "movie_count": 29, "avg_rating": 7.12},
+      {"director": "Sidney Lumet", "movie_count": 29, "avg_rating": 6.93},
+      {"director": "Clint Eastwood", "movie_count": 27, "avg_rating": 7.13},
+      {"director": "Michael Apted", "movie_count": 27, "avg_rating": 7.02},
+      {"director": "Robert Altman", "movie_count": 27, "avg_rating": 6.76},
+      {"director": "Spike Lee", "movie_count": 27, "avg_rating": 6.74}
+    ],
+    "insights": [
+      "Documentary films have the highest average rating (7.37/10)",
+      "Horror films have the lowest average rating (5.78/10)",
+      "USA produces 51.2% of all movies in the database",
+      "Martin Scorsese has the highest average rating (7.64) among prolific directors",
+      "Drama is the most common genre with 12,385 movies (58% of total)"
+    ]
+  },
+  "comments_collection": {
+    "database": "sample_mflix",
+    "collection": "comments",
+    "total_documents": 41079,
+    "schema_fields": 6,
+    "fields": ["_id", "name", "email", "movie_id", "text", "date"],
+    "avg_comments_per_movie": 1.92,
+    "insights": [
+      "High user engagement with nearly 2 comments per movie on average",
+      "Comments linked to movies via movie_id for relational queries"
+    ]
+  },
+  "users_collection": {
+    "database": "sample_mflix",
+    "collection": "users",
+    "total_documents": 185
+  },
+  "theaters_collection": {
+    "database": "sample_mflix",
+    "collection": "theaters",
+    "total_documents": 1564
+  },
+  "products_collection": {
+    "database": "test",
+    "collection": "products",
+    "total_documents": 1000,
+    "schema_fields": 9,
+    "fields": ["_id", "title", "description", "price", "category", "rating", "stock", "tags", "createdAt"],
+    "overall_statistics": {
+      "avg_price": 102.84,
+      "min_price": 0.04,
+      "max_price": 199.69,
+      "avg_rating": 2.55,
+      "total_stock": 95251
+    },
+    "categories": [
+      {
+        "category": "Home",
+        "product_count": 184,
+        "avg_price": 103.77,
+        "avg_rating": 2.59,
+        "total_stock": 16381,
+        "percentage": 18.4
+      },
+      {
+        "category": "Beauty",
+        "product_count": 168,
+        "avg_price": 102.26,
+        "avg_rating": 2.54,
+        "total_stock": 16710,
+        "percentage": 16.8
+      },
+      {
+        "category": "Clothing",
+        "product_count": 165,
+        "avg_price": 99.74,
+        "avg_rating": 2.47,
+        "total_stock": 15902,
+        "percentage": 16.5
+      },
+      {
+        "category": "Books",
+        "product_count": 162,
+        "avg_price": 102.88,
+        "avg_rating": 2.61,
+        "total_stock": 14852,
+        "percentage": 16.2
+      },
+      {
+        "category": "Electronics",
+        "product_count": 161,
+        "avg_price": 103.51,
+        "avg_rating": 2.59,
+        "total_stock": 16173,
+        "percentage": 16.1
+      },
+      {
+        "category": "Sports",
+        "product_count": 160,
+        "avg_price": 104.87,
+        "avg_rating": 2.51,
+        "total_stock": 15233,
+        "percentage": 16.0
+      }
+    ],
+    "price_distribution": [
+      {"range": "$0-50", "count": 227, "avg_rating": 2.44, "percentage": 22.7},
+      {"range": "$50-100", "count": 254, "avg_rating": 2.51, "percentage": 25.4},
+      {"range": "$100-150", "count": 248, "avg_rating": 2.49, "percentage": 24.8},
+      {"range": "$150-200", "count": 271, "avg_rating": 2.73, "percentage": 27.1}
+    ],
+    "insights": [
+      "Fairly balanced distribution across 6 product categories",
+      "Sports products have the highest average price ($104.87)",
+      "Books have the highest average rating (2.61/5.0)",
+      "Beauty category has the most inventory (16,710 units)",
+      "Higher-priced products ($150-200) correlate with better ratings (2.73)",
+      "Overall low ratings (2.55/5.0) suggest quality concerns or strict rating criteria"
+    ]
+  },
+  "data_quality_issues": [
+    {
+      "issue": "Year encoding problems",
+      "description": "Some year fields contain special characters (è)",
+      "severity": "medium",
+      "affected_collection": "movies"
+    },
+    {
+      "issue": "Empty IMDB ratings",
+      "description": "Some movies have empty string values for IMDB ratings instead of null",
+      "severity": "low",
+      "affected_collection": "movies"
+    },
+    {
+      "issue": "Low product ratings",
+      "description": "Average product rating is only 2.55/5.0",
+      "severity": "medium",
+      "affected_collection": "products"
+    },
+    {
+      "issue": "Inconsistent date formats",
+      "description": "Some dates stored as strings, others as Date objects",
+      "severity": "low",
+      "affected_collections": ["movies", "comments"]
+    }
+  ],
+  "recommendations": {
+    "data_quality": [
+      "Clean year data to remove special characters",
+      "Standardize empty IMDB ratings to null values",
+      "Investigate low product ratings and implement quality improvements",
+      "Standardize all date fields to Date type"
+    ],
+    "performance": [
+      "Add index on movies.year for temporal queries",
+      "Add index on movies.genres for genre filtering",
+      "Add index on products.category for category queries",
+      "Add index on comments.movie_id for efficient joins"
+    ],
+    "features": [
+      "Build movie recommendation engine using genre and rating data",
+      "Implement collaborative filtering using comment patterns",
+      "Create analytics dashboard for temporal trends",
+      "Add product review system similar to movie comments",
+      "Integrate theater locations with movie showings"
+    ]
+  },
+  "exported_files": [
+    {
+      "title": "Top Rated Movies",
+      "description": "Movies with IMDB rating >= 8.5",
+      "file": "69308d76060e06ca10457af2.json",
+      "path": "/home/vercel-sandbox/.mongodb/mongodb-mcp/exports/69308d26060e06ca10457af0/69308d76060e06ca10457af2.json",
+      "format": "relaxed EJSON"
+    },
+    {
+      "title": "All Products Data",
+      "description": "Complete product catalog sorted by category and price",
+      "file": "69308d76060e06ca10457af3.json",
+      "path": "/home/vercel-sandbox/.mongodb/mongodb-mcp/exports/69308d26060e06ca10457af0/69308d76060e06ca10457af3.json",
+      "format": "relaxed EJSON"
+    }
+  ],
+  "key_findings": {
+    "movies": {
+      "total": 21349,
+      "avg_rating": 6.66,
+      "top_genre": "Drama (12,385 movies)",
+      "highest_rated_genre": "Documentary (7.37 avg)",
+      "top_country": "USA (51.2%)",
+      "most_prolific_director": "Woody Allen (40 movies)",
+      "highest_rated_director": "Martin Scorsese (7.64 avg)"
+    },
+    "engagement": {
+      "total_comments": 41079,
+      "avg_comments_per_movie": 1.92,
+      "total_users": 185,
+      "total_theaters": 1564
+    },
+    "products": {
+      "total": 1000,
+      "avg_price": 102.84,
+      "price_range": "$0.04 - $199.69",
+      "avg_rating": 2.55,
+      "total_inventory": 95251,
+      "categories": 6,
+      "highest_priced_category": "Sports ($104.87 avg)",
+      "highest_rated_category": "Books (2.61 avg)",
+      "most_stock": "Beauty (16,710 units)"
+    }
+  }
+}
