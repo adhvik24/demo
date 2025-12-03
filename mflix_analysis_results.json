@@ -1,0 +1,343 @@
+{
+  "movies": {
+    "total_movies": 21349,
+    "genre_distribution": {
+      "Drama": 12385,
+      "Comedy": 6532,
+      "Romance": 3318,
+      "Crime": 2457,
+      "Thriller": 2454,
+      "Action": 2381,
+      "Adventure": 1900,
+      "Documentary": 1834,
+      "Horror": 1470,
+      "Biography": 1269,
+      "Family": 1249,
+      "Mystery": 1139,
+      "Fantasy": 1055,
+      "Sci-Fi": 958,
+      "Animation": 912,
+      "History": 874,
+      "Music": 780,
+      "War": 699,
+      "Short": 442,
+      "Musical": 440
+    },
+    "year_range": {
+      "min": 1896,
+      "max": 2016
+    },
+    "movies_by_decade": {
+      "1890": 2,
+      "1900": 2,
+      "1910": 14,
+      "1920": 48,
+      "1930": 241,
+      "1940": 333,
+      "1950": 617,
+      "1960": 807,
+      "1970": 1167,
+      "1980": 1956,
+      "1990": 3558,
+      "2000": 7196,
+      "2010": 5373
+    },
+    "imdb_stats": {
+      "mean": 6.662852311161217,
+      "median": 6.8,
+      "std": 0.9749416677562576,
+      "count": 21288
+    },
+    "tomatoes_viewer_stats": {
+      "mean": 3.433882366034166,
+      "median": 3.5,
+      "count": 17971
+    },
+    "runtime_stats": {
+      "mean": 103.65652797704448,
+      "median": 100.0,
+      "min": 1,
+      "max": 1256
+    },
+    "top_countries": {
+      "USA": 10921,
+      "UK": 2652,
+      "France": 2647,
+      "Germany": 1494,
+      "Canada": 1260,
+      "Italy": 1217,
+      "Japan": 786,
+      "Spain": 675,
+      "India": 564,
+      "Australia": 470,
+      "Sweden": 402,
+      "Belgium": 364,
+      "Hong Kong": 357,
+      "Netherlands": 337,
+      "Finland": 322
+    },
+    "top_languages": {
+      "English": 14639,
+      "French": 2405,
+      "Spanish": 1600,
+      "German": 1377,
+      "Italian": 1228,
+      "Japanese": 860,
+      "Russian": 845,
+      "Mandarin": 478,
+      "Hindi": 464,
+      "Portuguese": 346,
+      "Swedish": 336,
+      "Cantonese": 332,
+      "Arabic": 323,
+      "Korean": 306,
+      "Finnish": 273
+    },
+    "awards_stats": {
+      "movies_with_awards": 21349,
+      "total_wins": 86742,
+      "total_nominations": 103138
+    },
+    "top_20_movies": [
+      {
+        "title": "Band of Brothers",
+        "rating": 9.6,
+        "year": 2001
+      },
+      {
+        "title": "Planet Earth",
+        "rating": 9.5,
+        "year": 2006
+      },
+      {
+        "title": "The Civil War",
+        "rating": 9.4,
+        "year": 1990
+      },
+      {
+        "title": "The Civil War",
+        "rating": 9.4,
+        "year": 1990
+      },
+      {
+        "title": "A Brave Heart: The Lizzie Velasquez Story",
+        "rating": 9.4,
+        "year": 2015
+      },
+      {
+        "title": "Cosmos",
+        "rating": 9.3,
+        "year": 1980
+      },
+      {
+        "title": "The Shawshank Redemption",
+        "rating": 9.3,
+        "year": 1994
+      },
+      {
+        "title": "The Shawshank Redemption",
+        "rating": 9.3,
+        "year": 1994
+      },
+      {
+        "title": "The Real Miyagi",
+        "rating": 9.3,
+        "year": 2015
+      },
+      {
+        "title": "The Godfather",
+        "rating": 9.2,
+        "year": 1972
+      },
+      {
+        "title": "The Decalogue",
+        "rating": 9.2,
+        "year": 1989
+      },
+      {
+        "title": "The Blue Planet",
+        "rating": 9.2,
+        "year": 2001
+      },
+      {
+        "title": "Life",
+        "rating": 9.2,
+        "year": 2009
+      },
+      {
+        "title": "Human Planet",
+        "rating": 9.2,
+        "year": 2011
+      },
+      {
+        "title": "Frozen Planet",
+        "rating": 9.2,
+        "year": 2011
+      },
+      {
+        "title": "Over the Garden Wall",
+        "rating": 9.2,
+        "year": 2014
+      },
+      {
+        "title": "The Godfather: Part II",
+        "rating": 9.1,
+        "year": 1974
+      },
+      {
+        "title": "Hollywood",
+        "rating": 9.1,
+        "year": 1980
+      },
+      {
+        "title": "Baseball",
+        "rating": 9.1,
+        "year": 1994
+      },
+      {
+        "title": "Pride and Prejudice",
+        "rating": 9.1,
+        "year": 1995
+      }
+    ],
+    "type_distribution": {
+      "movie": 21117,
+      "series": 232
+    }
+  },
+  "comments": {
+    "total_comments": 41079,
+    "avg_comments_per_movie": 5.5154403866809885,
+    "max_comments_on_movie": 161,
+    "unique_commenters": 234,
+    "top_10_commenters": {
+      "roger_ashton-griffiths@gameofthron.es": 277,
+      "ron_donachie@gameofthron.es": 260,
+      "jonathan_pryce@gameofthron.es": 260,
+      "nathalie_emmanuel@gameofthron.es": 258,
+      "robert_jordan@fakegmail.com": 257,
+      "sophie_turner@gameofthron.es": 251,
+      "paul_kaye@gameofthron.es": 251,
+      "donna_smith@fakegmail.com": 248,
+      "nicholas_johnson@fakegmail.com": 248,
+      "richard_dormer@gameofthron.es": 247
+    },
+    "date_range": {
+      "earliest": "1970-01-01T01:07:09+00:00",
+      "latest": "2017-09-13T00:37:11+00:00"
+    },
+    "comments_by_year": {
+      "1970": 889,
+      "1971": 825,
+      "1972": 863,
+      "1973": 893,
+      "1974": 851,
+      "1975": 870,
+      "1976": 904,
+      "1977": 838,
+      "1978": 878,
+      "1979": 883,
+      "1980": 853,
+      "1981": 883,
+      "1982": 796,
+      "1983": 894,
+      "1984": 904,
+      "1985": 902,
+      "1986": 873,
+      "1987": 856,
+      "1988": 835,
+      "1989": 856,
+      "1990": 830,
+      "1991": 848,
+      "1992": 876,
+      "1993": 867,
+      "1994": 922,
+      "1995": 842,
+      "1996": 873,
+      "1997": 850,
+      "1998": 840,
+      "1999": 864,
+      "2000": 879,
+      "2001": 842,
+      "2002": 821,
+      "2003": 816,
+      "2004": 822,
+      "2005": 896,
+      "2006": 845,
+      "2007": 858,
+      "2008": 853,
+      "2009": 881,
+      "2010": 853,
+      "2011": 842,
+      "2012": 825,
+      "2013": 896,
+      "2014": 889,
+      "2015": 872,
+      "2016": 868,
+      "2017": 563
+    },
+    "comments_by_month": {
+      "1": 3472,
+      "2": 3196,
+      "3": 3406,
+      "4": 3429,
+      "5": 3534,
+      "6": 3391,
+      "7": 3505,
+      "8": 3560,
+      "9": 3344,
+      "10": 3412,
+      "11": 3325,
+      "12": 3505
+    },
+    "comment_length_stats": {
+      "mean": 152.0282382725967,
+      "median": 155.0,
+      "min": 47,
+      "max": 199
+    }
+  },
+  "theaters": {
+    "total_theaters": 1564,
+    "theaters_by_state": {
+      "CA": 169,
+      "TX": 160,
+      "FL": 111,
+      "NY": 81,
+      "IL": 70,
+      "PA": 55,
+      "OH": 52,
+      "VA": 45,
+      "GA": 45,
+      "NC": 45,
+      "MI": 45,
+      "NJ": 45,
+      "MN": 44,
+      "NV": 39,
+      "MA": 37,
+      "MD": 36,
+      "IN": 35,
+      "WI": 35,
+      "MO": 32,
+      "TN": 28
+    },
+    "top_cities": {
+      "Las Vegas": 29,
+      "Houston": 22,
+      "San Antonio": 14,
+      "Orlando": 13,
+      "Los Angeles": 12,
+      "Dallas": 12,
+      "Atlanta": 10,
+      "San Francisco": 9,
+      "Jacksonville": 9,
+      "New York": 8,
+      "Chicago": 8,
+      "Miami": 8,
+      "San Diego": 8,
+      "Columbus": 8,
+      "Minneapolis": 8
+    },
+    "total_with_coordinates": 1564
+  }
+}
