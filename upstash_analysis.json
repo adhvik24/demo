@@ -1,0 +1,116 @@
+{
+  "database_details": {
+    "database_name": "Test",
+    "database_type": "free",
+    "region": "global",
+    "primary_region": "us-east-1",
+    "creation_time": "12/3/2025, 6:34:36 PM UTC",
+    "state": "active",
+    "endpoint": "organic-pika-44003.upstash.io",
+    "tls": true,
+    "eviction": false,
+    "db_disk_threshold": 268435456,
+    "db_memory_threshold": 67108864,
+    "db_max_request_size": 10485760,
+    "db_request_limit": 500000,
+    "db_max_commands_per_second": 10000,
+    "db_monthly_bandwidth_limit": 50
+  },
+  "usage_statistics": {
+    "days": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "dates": [
+      "2025-11-27",
+      "2025-11-28",
+      "2025-11-29",
+      "2025-11-30",
+      "2025-12-01",
+      "2025-12-02",
+      "2025-12-03"
+    ],
+    "command_usage": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "bandwidth_usage": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1016
+    ]
+  },
+  "data_structure": {
+    "total_keys": 7,
+    "keys": {
+      "jobs": {
+        "type": "list",
+        "value": [
+          "job3",
+          "job2",
+          "job1"
+        ]
+      },
+      "profile:1": {
+        "type": "hash",
+        "value": {
+          "name": "Alice",
+          "age": "25"
+        }
+      },
+      "profile:2": {
+        "type": "hash",
+        "value": {
+          "name": "Bob",
+          "age": "30"
+        }
+      },
+      "user:1": {
+        "type": "string",
+        "value": "User 1"
+      },
+      "user:2": {
+        "type": "string",
+        "value": "User Two"
+      },
+      "user:3": {
+        "type": "string",
+        "value": "User Three"
+      },
+      "user:100": {
+        "type": "string",
+        "value": "User 100"
+      }
+    }
+  },
+  "analysis": {
+    "data_types": {
+      "list": 1,
+      "hash": 2,
+      "string": 4
+    },
+    "key_patterns": {
+      "jobs": 1,
+      "profile": 2,
+      "user": 4
+    },
+    "total_keys": 7,
+    "total_commands_7d": 21,
+    "total_bandwidth_7d": 1016,
+    "active_days": 1
+  }
+}
