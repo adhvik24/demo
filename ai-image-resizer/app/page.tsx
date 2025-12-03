@@ -122,7 +122,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-red-50 to-rose-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -147,8 +147,8 @@ export default function Home() {
               onClick={() => fileInputRef.current?.click()}
               className={`border-3 border-dashed rounded-xl p-12 text-center cursor-pointer transition-all duration-200 ${
                 isDragging
-                  ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20"
-                  : "border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500"
+                  ? "border-red-500 bg-red-50 dark:bg-red-900/20"
+                  : "border-gray-300 dark:border-gray-600 hover:border-red-400 dark:hover:border-red-500"
               }`}
             >
               <input
@@ -210,7 +210,7 @@ export default function Home() {
                     onChange={(e) =>
                       setOptions({ ...options, width: parseInt(e.target.value) || 0 })
                     }
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                   />
                 </div>
                 <div>
@@ -223,7 +223,7 @@ export default function Home() {
                     onChange={(e) =>
                       setOptions({ ...options, height: parseInt(e.target.value) || 0 })
                     }
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                   />
                 </div>
               </div>
@@ -292,7 +292,7 @@ export default function Home() {
               <button
                 onClick={handleResize}
                 disabled={!selectedFile || isProcessing}
-                className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 disabled:cursor-not-allowed"
+                className="w-full bg-red-600 hover:bg-red-700 disabled:bg-gray-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 disabled:cursor-not-allowed"
               >
                 {isProcessing ? "Processing..." : "Resize Image"}
               </button>
@@ -337,7 +337,7 @@ export default function Home() {
                   </div>
                   <button
                     onClick={handleDownload}
-                    className="mt-4 w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                    className="mt-4 w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
                   >
                     Download Resized Image
                   </button>
