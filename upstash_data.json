@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "Student",
+      "department": "Computer Science",
+      "enrollment_date": "2023-09-01",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "role": "Faculty",
+      "department": "Mathematics",
+      "enrollment_date": "2020-08-15",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "role": "Student",
+      "department": "Physics",
+      "enrollment_date": "2024-01-10",
+      "status": "Active"
+    }
+  ],
+  "metadata": {
+    "total_users": 3,
+    "extracted_from": "Screenshot 2025-12-04 at 2.00.33 PM.png",
+    "date": "2025-12-04"
+  }
+}
