@@ -1,0 +1,110 @@
+================================================================================
+MONGODB DATA ANALYSIS - SAMPLE_MFLIX DATABASE
+================================================================================
+
+DATABASE OVERVIEW
+--------------------------------------------------------------------------------
+Total Collections: 6
+Total Documents in sample_mflix: 67661
+
+  movies              :     21,349 documents
+  comments            :     41,079 documents
+  users               :        185 documents
+  theaters            :      1,564 documents
+  sessions            :          1 documents
+  embedded_movies     :      3,483 documents
+
+TOP 15 MOVIE GENRES
+--------------------------------------------------------------------------------
+Genre                Count   Avg Rating Bar Chart
+--------------------------------------------------------------------------------
+Drama               12,385         6.80 ████████████████████████████████████████
+Comedy               6,532         6.45 █████████████████████
+Romance              3,318         6.66 ██████████
+Crime                2,457         6.69 ███████
+Thriller             2,454         6.30 ███████
+Action               2,381         6.35 ███████
+Adventure            1,900         6.49 ██████
+Documentary          1,834         7.37 █████
+Horror               1,470         5.78 ████
+Biography            1,269         7.09 ████
+Family               1,249         6.33 ████
+Mystery              1,139         6.53 ███
+Fantasy              1,055         6.38 ███
+Sci-Fi                 958         6.12 ███
+Animation              912         6.90 ██
+
+MOVIES BY YEAR (SAMPLE DECADES)
+--------------------------------------------------------------------------------
+Year            Count   Avg Rating
+--------------------------------------------------------------------------------
+1903                1         7.40
+1920                4         6.98
+1930               10         6.97
+1940               24         7.12
+1950               55         7.06
+1960               73         7.21
+1970              120         7.08
+1980              167         6.64
+1990              225         6.65
+2000              581         6.52
+2009              917         6.51
+
+TOP 10 MOST ACTIVE COMMENTERS
+--------------------------------------------------------------------------------
+Email                                           Comments
+--------------------------------------------------------------------------------
+roger_ashton-griffiths@gameofthron.es                277
+ron_donachie@gameofthron.es                          260
+jonathan_pryce@gameofthron.es                        260
+nathalie_emmanuel@gameofthron.es                     258
+robert_jordan@fakegmail.com                          257
+sophie_turner@gameofthron.es                         251
+paul_kaye@gameofthron.es                             251
+nicholas_johnson@fakegmail.com                       248
+donna_smith@fakegmail.com                            248
+richard_dormer@gameofthron.es                        247
+
+TOP 15 STATES BY THEATER COUNT
+--------------------------------------------------------------------------------
+State        Theaters Bar Chart
+--------------------------------------------------------------------------------
+CA                169 ██████████████████████████████████████████████████
+TX                160 ███████████████████████████████████████████████
+FL                111 ████████████████████████████████
+NY                 81 ███████████████████████
+IL                 70 ████████████████████
+PA                 55 ████████████████
+OH                 52 ███████████████
+VA                 45 █████████████
+NC                 45 █████████████
+GA                 45 █████████████
+MI                 45 █████████████
+NJ                 45 █████████████
+MN                 44 █████████████
+NV                 39 ███████████
+MA                 37 ██████████
+
+PRODUCTS BY CATEGORY (TEST DATABASE)
+--------------------------------------------------------------------------------
+Category             Count    Avg Price
+--------------------------------------------------------------------------------
+home                   184 $    103.77
+beauty                 168 $    102.26
+clothing               165 $     99.74
+books                  162 $    102.88
+electronics            161 $    103.51
+sports                 160 $    104.87
+
+KEY INSIGHTS
+--------------------------------------------------------------------------------
+1. Drama is the most popular genre with 12,385 movies (avg rating: 6.80)
+2. Documentary has the highest average rating (7.37) despite fewer movies
+3. Horror has the lowest average rating (5.78)
+4. Movie production peaked in 2009 with 917 movies
+5. California has the most theaters (169), followed by Texas (160)
+6. The database contains 41,079 comments from 185 users
+7. Top commenters are primarily from Game of Thrones cast emails
+8. Product prices are fairly consistent across categories (~$100-105)
+
+================================================================================
