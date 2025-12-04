@@ -1,0 +1,335 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-12-04T18:32:00Z",
+    "analysis_tool": "Blackbox AI with Upstash MCP",
+    "database_id": "00868026-245d-4640-8632-71c6bebfea50"
+  },
+  "database_info": {
+    "database_name": "Test",
+    "database_type": "free",
+    "region": "global",
+    "primary_region": "us-east-1",
+    "all_regions": ["us-east-1"],
+    "creation_time": "2025-12-03T18:34:36Z",
+    "creation_timestamp": 1764786876,
+    "state": "active",
+    "endpoint": "organic-pika-44003.upstash.io",
+    "port": 6379,
+    "tls_enabled": true,
+    "db_engine": "bolt"
+  },
+  "resource_limits": {
+    "disk_threshold_bytes": 268435456,
+    "disk_threshold_mb": 256,
+    "memory_threshold_bytes": 67108864,
+    "memory_threshold_mb": 64,
+    "monthly_bandwidth_limit_mb": 50,
+    "request_limit": 500000,
+    "max_commands_per_second": 10000,
+    "max_clients": 10000,
+    "max_request_size_bytes": 10485760,
+    "max_entry_size_bytes": 104857600,
+    "connection_idle_timeout_hours": 6
+  },
+  "database_features": {
+    "eviction": false,
+    "auto_upgrade": false,
+    "consistent": false,
+    "acl_enabled": false,
+    "acl_default_user_status": true
+  },
+  "usage_statistics": {
+    "period": "last_5_days",
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-04",
+    "daily_usage": [
+      {
+        "date": "2025-11-28",
+        "day": "Friday",
+        "commands": 0,
+        "bandwidth_bytes": 0,
+        "bandwidth_kb": 0.0
+      },
+      {
+        "date": "2025-11-29",
+        "day": "Saturday",
+        "commands": 0,
+        "bandwidth_bytes": 0,
+        "bandwidth_kb": 0.0
+      },
+      {
+        "date": "2025-11-30",
+        "day": "Sunday",
+        "commands": 0,
+        "bandwidth_bytes": 0,
+        "bandwidth_kb": 0.0
+      },
+      {
+        "date": "2025-12-01",
+        "day": "Monday",
+        "commands": 0,
+        "bandwidth_bytes": 0,
+        "bandwidth_kb": 0.0
+      },
+      {
+        "date": "2025-12-02",
+        "day": "Tuesday",
+        "commands": 0,
+        "bandwidth_bytes": 0,
+        "bandwidth_kb": 0.0
+      },
+      {
+        "date": "2025-12-03",
+        "day": "Wednesday",
+        "commands": 49,
+        "bandwidth_bytes": 1436,
+        "bandwidth_kb": 1.4023,
+        "regional_details": {
+          "us-east-1": {
+            "commands": 49,
+            "bandwidth_bytes": 1436
+          }
+        }
+      },
+      {
+        "date": "2025-12-04",
+        "day": "Thursday",
+        "commands": 2,
+        "bandwidth_bytes": 2,
+        "bandwidth_kb": 0.002,
+        "regional_details": {
+          "us-east-1": {
+            "commands": 2,
+            "bandwidth_bytes": 2
+          }
+        }
+      }
+    ],
+    "totals": {
+      "total_commands": 51,
+      "total_bandwidth_bytes": 1438,
+      "total_bandwidth_kb": 1.4043,
+      "total_bandwidth_mb": 0.00137,
+      "average_commands_per_day": 7.29,
+      "average_bandwidth_per_command_bytes": 28.2,
+      "peak_commands": 49,
+      "peak_commands_date": "2025-12-03",
+      "peak_bandwidth_bytes": 1436,
+      "peak_bandwidth_date": "2025-12-03"
+    }
+  },
+  "throughput_statistics": {
+    "period": "7d",
+    "stat_type": "throughput",
+    "unit": "commands_per_second",
+    "samples": [
+      {
+        "timestamp": 1764792480000,
+        "datetime": "2025-12-03T22:08:00Z",
+        "throughput": 0.0046957135379996455
+      },
+      {
+        "timestamp": 1764802560000,
+        "datetime": "2025-12-04T00:56:00Z",
+        "throughput": 0.00009970089730807578
+      },
+      {
+        "timestamp": 1764873120000,
+        "datetime": "2025-12-04T20:32:00Z",
+        "throughput": 0.00019974670592336826
+      }
+    ],
+    "peak_throughput": 0.0046957135379996455,
+    "peak_throughput_datetime": "2025-12-03T22:08:00Z",
+    "average_throughput": 0.0016308203804344634
+  },
+  "data_structure": {
+    "total_keys": 7,
+    "key_types": {
+      "string": 4,
+      "hash": 2,
+      "list": 1
+    },
+    "key_patterns": {
+      "user": 4,
+      "profile": 2,
+      "jobs": 1
+    },
+    "keys": {
+      "user:1": {
+        "type": "string",
+        "value": "User 1",
+        "pattern": "user",
+        "id": "1"
+      },
+      "user:2": {
+        "type": "string",
+        "value": "User Two",
+        "pattern": "user",
+        "id": "2"
+      },
+      "user:3": {
+        "type": "string",
+        "value": "User Three",
+        "pattern": "user",
+        "id": "3"
+      },
+      "user:100": {
+        "type": "string",
+        "value": "User 100",
+        "pattern": "user",
+        "id": "100"
+      },
+      "profile:1": {
+        "type": "hash",
+        "fields": {
+          "name": "Alice",
+          "age": "25"
+        },
+        "field_count": 2,
+        "pattern": "profile",
+        "id": "1"
+      },
+      "profile:2": {
+        "type": "hash",
+        "fields": {
+          "name": "Bob",
+          "age": "30"
+        },
+        "field_count": 2,
+        "pattern": "profile",
+        "id": "2"
+      },
+      "jobs": {
+        "type": "list",
+        "items": ["job3", "job2", "job1"],
+        "length": 3,
+        "pattern": "jobs"
+      }
+    }
+  },
+  "data_relationships": {
+    "user_profile_mapping": {
+      "user:1": "profile:1",
+      "user:2": "profile:2",
+      "user:3": null,
+      "user:100": null
+    },
+    "orphaned_users": ["user:3", "user:100"],
+    "orphaned_profiles": [],
+    "consistency_issues": [
+      {
+        "type": "missing_profile",
+        "user_key": "user:3",
+        "expected_profile": "profile:3",
+        "severity": "low"
+      },
+      {
+        "type": "missing_profile",
+        "user_key": "user:100",
+        "expected_profile": "profile:100",
+        "severity": "low"
+      }
+    ]
+  },
+  "resource_utilization": {
+    "command_limit": {
+      "limit": 500000,
+      "used": 51,
+      "remaining": 499949,
+      "utilization_percent": 0.0102,
+      "status": "excellent"
+    },
+    "bandwidth_limit": {
+      "limit_mb": 50,
+      "used_mb": 0.00137,
+      "remaining_mb": 49.99863,
+      "utilization_percent": 0.00274,
+      "status": "excellent"
+    },
+    "storage": {
+      "disk_limit_mb": 256,
+      "memory_limit_mb": 64,
+      "estimated_usage_kb": 1,
+      "status": "excellent"
+    },
+    "performance": {
+      "max_throughput_limit": 10000,
+      "peak_observed_throughput": 0.0046957135379996455,
+      "utilization_percent": 0.00004696,
+      "status": "excellent"
+    }
+  },
+  "insights": {
+    "database_age_days": 1,
+    "activity_level": "low",
+    "primary_use_case": "user_management_system",
+    "data_model_maturity": "early_stage",
+    "scalability_headroom": "excellent",
+    "health_score": 9,
+    "health_status": "healthy"
+  },
+  "recommendations": {
+    "immediate": [],
+    "short_term": [
+      "Add profiles for users 3 and 100, or remove orphaned user records",
+      "Implement application-level validation for user-profile consistency",
+      "Set up monitoring alerts for unusual activity spikes"
+    ],
+    "long_term": [
+      "Consider upgrading user strings to hashes for richer data model",
+      "Implement secondary indexes using Redis Sets",
+      "Enable ACL for production use",
+      "Plan for tier upgrade if production usage is expected",
+      "Implement backup strategy (requires paid tier)"
+    ]
+  },
+  "optimization_opportunities": [
+    {
+      "category": "data_consistency",
+      "priority": "medium",
+      "description": "Resolve orphaned user records without corresponding profiles",
+      "impact": "improved_data_integrity"
+    },
+    {
+      "category": "data_structure",
+      "priority": "low",
+      "description": "Upgrade user strings to hashes for additional attributes",
+      "impact": "enhanced_flexibility"
+    },
+    {
+      "category": "indexing",
+      "priority": "low",
+      "description": "Add Redis Sets for user ID indexing",
+      "impact": "improved_query_performance"
+    },
+    {
+      "category": "expiration",
+      "priority": "low",
+      "description": "Consider adding TTL for temporary data",
+      "impact": "automatic_cleanup"
+    }
+  ],
+  "comparison_to_limits": {
+    "keys": {
+      "current": 7,
+      "practical_limit": 1000000,
+      "headroom_percent": 99.9993
+    },
+    "commands_5d": {
+      "current": 51,
+      "limit": 500000,
+      "headroom_percent": 99.99
+    },
+    "bandwidth_5d": {
+      "current_kb": 1.4043,
+      "limit_kb": 51200,
+      "headroom_percent": 99.997
+    },
+    "throughput": {
+      "current_cmds_per_sec": 0.0047,
+      "limit_cmds_per_sec": 10000,
+      "headroom_percent": 99.99995
+    }
+  }
+}
