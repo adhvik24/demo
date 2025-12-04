@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "6931ba8c721c4944b9eba52c",
+    "title": "The Art of Leadership",
+    "description": "High-quality leadership perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 86.12,
+    "category": "books",
+    "rating": 1.7,
+    "stock": 270,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876482Z"
+  },
+  {
+    "_id": "6931ba8cf9ddc66ab29d04d0",
+    "title": "Digital Speaker",
+    "description": "High-quality speaker perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 149.91,
+    "category": "electronics",
+    "rating": 2.9,
+    "stock": 243,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876499Z"
+  },
+  {
+    "_id": "6931ba8c6b72d0e7afa0eaf6",
+    "title": "Advanced Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 277.04,
+    "category": "sports",
+    "rating": 4.4,
+    "stock": 171,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876514Z"
+  },
+  {
+    "_id": "6931ba8c497a3ac8af500168",
+    "title": "Essential Pillow",
+    "description": "High-quality pillow perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 211.93,
+    "category": "home",
+    "rating": 2.4,
+    "stock": 371,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876527Z"
+  },
+  {
+    "_id": "6931ba8c0909e391f196cac2",
+    "title": "Essential Rug",
+    "description": "High-quality rug perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 51.03,
+    "category": "home",
+    "rating": 1.7,
+    "stock": 150,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876543Z"
+  },
+  {
+    "_id": "6931ba8cae46ec521c650f47",
+    "title": "Glow Cream",
+    "description": "High-quality cream perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 157.67,
+    "category": "beauty",
+    "rating": 4.7,
+    "stock": 312,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876558Z"
+  },
+  {
+    "_id": "6931ba8c186917401bc07a00",
+    "title": "Organic Moisturizer",
+    "description": "High-quality moisturizer perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 129.33,
+    "category": "beauty",
+    "rating": 1.6,
+    "stock": 168,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876571Z"
+  },
+  {
+    "_id": "6931ba8c8f76dcc80fd79e5a",
+    "title": "Pure Serum",
+    "description": "High-quality serum perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 132.16,
+    "category": "beauty",
+    "rating": 3.5,
+    "stock": 490,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876584Z"
+  },
+  {
+    "_id": "6931ba8c8f17ca2063bea51a",
+    "title": "Pro Running Shoes",
+    "description": "High-quality running shoes perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 225.88,
+    "category": "sports",
+    "rating": 1.6,
+    "stock": 98,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876597Z"
+  },
+  {
+    "_id": "6931ba8c71848d7f00c01ca7",
+    "title": "Ultra Monitor",
+    "description": "High-quality monitor perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 209.85,
+    "category": "electronics",
+    "rating": 4.5,
+    "stock": 76,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876611Z"
+  },
+  {
+    "_id": "6931ba8ce02a7e0b2204c729",
+    "title": "Advanced Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 248.97,
+    "category": "sports",
+    "rating": 1.4,
+    "stock": 254,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876626Z"
+  },
+  {
+    "_id": "6931ba8c135db61a85f30214",
+    "title": "Complete Business",
+    "description": "High-quality business perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 232.1,
+    "category": "books",
+    "rating": 1.7,
+    "stock": 189,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876638Z"
+  },
+  {
+    "_id": "6931ba8c392ca62e10eb94bc",
+    "title": "Guide to Programming",
+    "description": "High-quality programming perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 153.27,
+    "category": "books",
+    "rating": 1.5,
+    "stock": 73,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876650Z"
+  },
+  {
+    "_id": "6931ba8c732b9b91d4683ff9",
+    "title": "Performance Water Bottle",
+    "description": "High-quality water bottle perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 261.55,
+    "category": "sports",
+    "rating": 4.9,
+    "stock": 259,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876663Z"
+  },
+  {
+    "_id": "6931ba8c43caf72a0a465cc0",
+    "title": "Vintage Shirt",
+    "description": "High-quality shirt perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 227.31,
+    "category": "clothing",
+    "rating": 4.7,
+    "stock": 90,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876675Z"
+  },
+  {
+    "_id": "6931ba8c813796be313363e1",
+    "title": "Premium Shoes",
+    "description": "High-quality shoes perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 183.82,
+    "category": "clothing",
+    "rating": 1.2,
+    "stock": 223,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876687Z"
+  },
+  {
+    "_id": "6931ba8c2573545094176c34",
+    "title": "Classic Shoes",
+    "description": "High-quality shoes perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 63.89,
+    "category": "clothing",
+    "rating": 4.2,
+    "stock": 487,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876700Z"
+  },
+  {
+    "_id": "6931ba8c1d7f9d4bb359e929",
+    "title": "Guide to Business",
+    "description": "High-quality business perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 21.41,
+    "category": "books",
+    "rating": 4.9,
+    "stock": 20,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876713Z"
+  },
+  {
+    "_id": "6931ba8c66cb171cb6353f0a",
+    "title": "Glow Serum",
+    "description": "High-quality serum perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 65.29,
+    "category": "beauty",
+    "rating": 2.8,
+    "stock": 292,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876730Z"
+  },
+  {
+    "_id": "6931ba8cf72b2dab0a6b84cb",
+    "title": "Advanced Yoga Mat",
+    "description": "High-quality yoga mat perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 191.49,
+    "category": "sports",
+    "rating": 3.3,
+    "stock": 106,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876742Z"
+  },
+  {
+    "_id": "6931ba8ceb0fae1595281b3f",
+    "title": "Pro Water Bottle",
+    "description": "High-quality water bottle perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 86.81,
+    "category": "sports",
+    "rating": 1.5,
+    "stock": 244,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876756Z"
+  },
+  {
+    "_id": "6931ba8c3b354a415781ba84",
+    "title": "Advanced Resistance Bands",
+    "description": "High-quality resistance bands perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 193.86,
+    "category": "sports",
+    "rating": 4.2,
+    "stock": 484,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876770Z"
+  },
+  {
+    "_id": "6931ba8ce71e4f14b7d8a4f8",
+    "title": "Pro Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 56.96,
+    "category": "sports",
+    "rating": 2.4,
+    "stock": 227,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876783Z"
+  },
+  {
+    "_id": "6931ba8c41d3fa65a59bd742",
+    "title": "Professional Yoga Mat",
+    "description": "High-quality yoga mat perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 241.01,
+    "category": "sports",
+    "rating": 1.7,
+    "stock": 133,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876796Z"
+  },
+  {
+    "_id": "6931ba8cfc0572eb4fdba230",
+    "title": "Vintage Coat",
+    "description": "High-quality coat perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 108.65,
+    "category": "clothing",
+    "rating": 1.5,
+    "stock": 133,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876810Z"
+  },
+  {
+    "_id": "6931ba8c80555824e672750b",
+    "title": "Comfort Rug",
+    "description": "High-quality rug perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 293.16,
+    "category": "home",
+    "rating": 2.3,
+    "stock": 361,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876823Z"
+  },
+  {
+    "_id": "6931ba8cfcfacbe5170a1093",
+    "title": "Deluxe Chair",
+    "description": "High-quality chair perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 120.06,
+    "category": "home",
+    "rating": 2.3,
+    "stock": 311,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876836Z"
+  },
+  {
+    "_id": "6931ba8c8cc31daff67980a6",
+    "title": "Elite Water Bottle",
+    "description": "High-quality water bottle perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 220.46,
+    "category": "sports",
+    "rating": 2.7,
+    "stock": 197,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876849Z"
+  },
+  {
+    "_id": "6931ba8c54783eb672beb6d9",
+    "title": "Luxury Chair",
+    "description": "High-quality chair perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 60.21,
+    "category": "home",
+    "rating": 2.2,
+    "stock": 444,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876865Z"
+  },
+  {
+    "_id": "6931ba8ce960a4279e3d47d4",
+    "title": "Mastering Cooking",
+    "description": "High-quality cooking perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 183.85,
+    "category": "books",
+    "rating": 3.0,
+    "stock": 378,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876880Z"
+  },
+  {
+    "_id": "6931ba8cc24aa1a42ea0c7f9",
+    "title": "Organic Serum",
+    "description": "High-quality serum perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 121.28,
+    "category": "beauty",
+    "rating": 2.9,
+    "stock": 223,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876893Z"
+  },
+  {
+    "_id": "6931ba8cfd5b04927b505af0",
+    "title": "Modern Mirror",
+    "description": "High-quality mirror perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 101.66,
+    "category": "home",
+    "rating": 3.6,
+    "stock": 39,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876908Z"
+  },
+  {
+    "_id": "6931ba8cc9255dc4b585224c",
+    "title": "Guide to Design",
+    "description": "High-quality design perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 135.35,
+    "category": "books",
+    "rating": 4.7,
+    "stock": 83,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876925Z"
+  },
+  {
+    "_id": "6931ba8c8dc8bfdbbc6e1205",
+    "title": "Wireless Camera",
+    "description": "High-quality camera perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 213.48,
+    "category": "electronics",
+    "rating": 1.6,
+    "stock": 226,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876938Z"
+  },
+  {
+    "_id": "6931ba8c24b12bb43f6c1076",
+    "title": "Complete Marketing",
+    "description": "High-quality marketing perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 74.97,
+    "category": "books",
+    "rating": 1.1,
+    "stock": 337,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876952Z"
+  },
+  {
+    "_id": "6931ba8c7e04011993a02b49",
+    "title": "Complete Photography",
+    "description": "High-quality photography perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 118.61,
+    "category": "books",
+    "rating": 4.4,
+    "stock": 399,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876965Z"
+  },
+  {
+    "_id": "6931ba8c81dc8bf2c0beed7b",
+    "title": "Advanced Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 71.83,
+    "category": "sports",
+    "rating": 3.7,
+    "stock": 54,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876978Z"
+  },
+  {
+    "_id": "6931ba8c686c578754b1767b",
+    "title": "Modern Pants",
+    "description": "High-quality pants perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 212.36,
+    "category": "clothing",
+    "rating": 4.4,
+    "stock": 115,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.876991Z"
+  },
+  {
+    "_id": "6931ba8cf6decf50aa68a16b",
+    "title": "Introduction to Leadership",
+    "description": "High-quality leadership perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 293.71,
+    "category": "books",
+    "rating": 4.0,
+    "stock": 456,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877004Z"
+  },
+  {
+    "_id": "6931ba8cf59f1db4b94ca679",
+    "title": "Premium Coat",
+    "description": "High-quality coat perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 133.23,
+    "category": "clothing",
+    "rating": 2.9,
+    "stock": 142,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877017Z"
+  },
+  {
+    "_id": "6931ba8c173f0bd7029549ca",
+    "title": "Vintage Jeans",
+    "description": "High-quality jeans perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 165.58,
+    "category": "clothing",
+    "rating": 3.0,
+    "stock": 238,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877030Z"
+  },
+  {
+    "_id": "6931ba8c745d8f06e656708d",
+    "title": "Modern Shoes",
+    "description": "High-quality shoes perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 104.84,
+    "category": "clothing",
+    "rating": 3.8,
+    "stock": 251,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877043Z"
+  },
+  {
+    "_id": "6931ba8cb71aaa97d867f95f",
+    "title": "Organic Oil",
+    "description": "High-quality oil perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 109.73,
+    "category": "beauty",
+    "rating": 1.1,
+    "stock": 23,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877056Z"
+  },
+  {
+    "_id": "6931ba8cc9ca66f603341bd1",
+    "title": "Modern Coat",
+    "description": "High-quality coat perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 67.53,
+    "category": "clothing",
+    "rating": 3.2,
+    "stock": 19,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877070Z"
+  },
+  {
+    "_id": "6931ba8c9e4b9f669c1a58c5",
+    "title": "Glow Toner",
+    "description": "High-quality toner perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 192.14,
+    "category": "beauty",
+    "rating": 2.5,
+    "stock": 223,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877084Z"
+  },
+  {
+    "_id": "6931ba8cd840f63b1d151c73",
+    "title": "Vintage Jeans",
+    "description": "High-quality jeans perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 242.77,
+    "category": "clothing",
+    "rating": 3.6,
+    "stock": 154,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877097Z"
+  },
+  {
+    "_id": "6931ba8ca5648a8ea827adf4",
+    "title": "Mastering Writing",
+    "description": "High-quality writing perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 198.61,
+    "category": "books",
+    "rating": 4.2,
+    "stock": 436,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877116Z"
+  },
+  {
+    "_id": "6931ba8c8522a465d136da49",
+    "title": "Pure Serum",
+    "description": "High-quality serum perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 133.63,
+    "category": "beauty",
+    "rating": 1.5,
+    "stock": 98,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877129Z"
+  },
+  {
+    "_id": "6931ba8c786a0224ca2df70d",
+    "title": "Wireless Keyboard",
+    "description": "High-quality keyboard perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 43.49,
+    "category": "electronics",
+    "rating": 3.4,
+    "stock": 443,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877143Z"
+  },
+  {
+    "_id": "6931ba8cae6dd3981a9c8719",
+    "title": "HD Mouse",
+    "description": "High-quality mouse perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 236.48,
+    "category": "electronics",
+    "rating": 2.3,
+    "stock": 426,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877157Z"
+  },
+  {
+    "_id": "6931ba8ccbe31346d08b1873",
+    "title": "Essential Writing",
+    "description": "High-quality writing perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 97.76,
+    "category": "books",
+    "rating": 4.1,
+    "stock": 74,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877170Z"
+  },
+  {
+    "_id": "6931ba8cd0f9dafbc384f5c1",
+    "title": "Deluxe Table",
+    "description": "High-quality table perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 262.74,
+    "category": "home",
+    "rating": 4.4,
+    "stock": 198,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877186Z"
+  },
+  {
+    "_id": "6931ba8c4ec4d275cac41c7b",
+    "title": "HD Keyboard",
+    "description": "High-quality keyboard perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 279.41,
+    "category": "electronics",
+    "rating": 2.3,
+    "stock": 216,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877199Z"
+  },
+  {
+    "_id": "6931ba8c859db700aac26a51",
+    "title": "Wireless Keyboard",
+    "description": "High-quality keyboard perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 64.18,
+    "category": "electronics",
+    "rating": 3.1,
+    "stock": 496,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877213Z"
+  },
+  {
+    "_id": "6931ba8cac57b4adc362efe3",
+    "title": "Elite Water Bottle",
+    "description": "High-quality water bottle perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 285.46,
+    "category": "sports",
+    "rating": 4.7,
+    "stock": 331,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877226Z"
+  },
+  {
+    "_id": "6931ba8cef3b266415f1b6e7",
+    "title": "Essential Business",
+    "description": "High-quality business perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 208.6,
+    "category": "books",
+    "rating": 1.5,
+    "stock": 365,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877239Z"
+  },
+  {
+    "_id": "6931ba8c472d9f4a662449e5",
+    "title": "Classic Sweater",
+    "description": "High-quality sweater perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 211.58,
+    "category": "clothing",
+    "rating": 2.8,
+    "stock": 5,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877253Z"
+  },
+  {
+    "_id": "6931ba8cf63669180e759acb",
+    "title": "Organic Cleanser",
+    "description": "High-quality cleanser perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 246.75,
+    "category": "beauty",
+    "rating": 1.0,
+    "stock": 258,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877267Z"
+  },
+  {
+    "_id": "6931ba8cfa2e0227571b645f",
+    "title": "Introduction to Leadership",
+    "description": "High-quality leadership perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 159.77,
+    "category": "books",
+    "rating": 4.9,
+    "stock": 143,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877282Z"
+  },
+  {
+    "_id": "6931ba8c4e9c45e5fc2dac02",
+    "title": "Performance Fitness Tracker",
+    "description": "High-quality fitness tracker perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 84.35,
+    "category": "sports",
+    "rating": 1.1,
+    "stock": 133,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877295Z"
+  },
+  {
+    "_id": "6931ba8c6fe05b77dd11d228",
+    "title": "Casual Shoes",
+    "description": "High-quality shoes perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 96.37,
+    "category": "clothing",
+    "rating": 4.6,
+    "stock": 299,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877310Z"
+  },
+  {
+    "_id": "6931ba8c8961cae0aa69fd21",
+    "title": "Designer Jacket",
+    "description": "High-quality jacket perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 252.59,
+    "category": "clothing",
+    "rating": 3.6,
+    "stock": 232,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877323Z"
+  },
+  {
+    "_id": "6931ba8ca5097ffec2dc4cb8",
+    "title": "Performance Water Bottle",
+    "description": "High-quality water bottle perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 188.63,
+    "category": "sports",
+    "rating": 1.4,
+    "stock": 130,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877337Z"
+  },
+  {
+    "_id": "6931ba8c1d2c4ca176c4a2ad",
+    "title": "Classic Pants",
+    "description": "High-quality pants perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 163.53,
+    "category": "clothing",
+    "rating": 3.0,
+    "stock": 453,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877349Z"
+  },
+  {
+    "_id": "6931ba8c96cc9660573a27a8",
+    "title": "Radiant Oil",
+    "description": "High-quality oil perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 101.39,
+    "category": "beauty",
+    "rating": 2.7,
+    "stock": 464,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877363Z"
+  },
+  {
+    "_id": "6931ba8cfa43698e8867bd59",
+    "title": "Professional Lotion",
+    "description": "High-quality lotion perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 235.21,
+    "category": "beauty",
+    "rating": 1.1,
+    "stock": 379,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877376Z"
+  },
+  {
+    "_id": "6931ba8ccd06b5bc7c5ec31f",
+    "title": "Training Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 92.6,
+    "category": "sports",
+    "rating": 3.7,
+    "stock": 222,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877388Z"
+  },
+  {
+    "_id": "6931ba8c60a76abb4d9bfac1",
+    "title": "The Art of Photography",
+    "description": "High-quality photography perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 57.82,
+    "category": "books",
+    "rating": 1.8,
+    "stock": 417,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877400Z"
+  },
+  {
+    "_id": "6931ba8cd3aa6ac3477022bf",
+    "title": "Ultra Monitor",
+    "description": "High-quality monitor perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 152.01,
+    "category": "electronics",
+    "rating": 4.4,
+    "stock": 299,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877413Z"
+  },
+  {
+    "_id": "6931ba8c9d00abfdb9847799",
+    "title": "Classic Sweater",
+    "description": "High-quality sweater perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 210.02,
+    "category": "clothing",
+    "rating": 4.3,
+    "stock": 249,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877426Z"
+  },
+  {
+    "_id": "6931ba8c8651e677f5b04353",
+    "title": "Casual Jacket",
+    "description": "High-quality jacket perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 81.51,
+    "category": "clothing",
+    "rating": 4.6,
+    "stock": 173,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877440Z"
+  },
+  {
+    "_id": "6931ba8c24bfdabccd94ba23",
+    "title": "Essential Programming",
+    "description": "High-quality programming perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 189.6,
+    "category": "books",
+    "rating": 1.4,
+    "stock": 212,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877454Z"
+  },
+  {
+    "_id": "6931ba8c300e52de01691345",
+    "title": "Professional Mask",
+    "description": "High-quality mask perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 119.46,
+    "category": "beauty",
+    "rating": 1.2,
+    "stock": 449,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877467Z"
+  },
+  {
+    "_id": "6931ba8cdd910fcfcfc9d188",
+    "title": "Mastering Design",
+    "description": "High-quality design perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 66.76,
+    "category": "books",
+    "rating": 1.5,
+    "stock": 105,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877481Z"
+  },
+  {
+    "_id": "6931ba8cbc7d25d13fc0d742",
+    "title": "Comfort Chair",
+    "description": "High-quality chair perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 94.47,
+    "category": "home",
+    "rating": 3.9,
+    "stock": 212,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877496Z"
+  },
+  {
+    "_id": "6931ba8c2c63c667dc5020cf",
+    "title": "Modern Rug",
+    "description": "High-quality rug perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 43.73,
+    "category": "home",
+    "rating": 2.3,
+    "stock": 395,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877509Z"
+  },
+  {
+    "_id": "6931ba8c60e29ffcef6ebdb5",
+    "title": "Vintage Jacket",
+    "description": "High-quality jacket perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 116.35,
+    "category": "clothing",
+    "rating": 4.3,
+    "stock": 460,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877522Z"
+  },
+  {
+    "_id": "6931ba8cb738cabec63405bb",
+    "title": "Complete Design",
+    "description": "High-quality design perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 55.27,
+    "category": "books",
+    "rating": 5.0,
+    "stock": 145,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877535Z"
+  },
+  {
+    "_id": "6931ba8c8c20c93cbf105a50",
+    "title": "Premium Sweater",
+    "description": "High-quality sweater perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 202.26,
+    "category": "clothing",
+    "rating": 1.5,
+    "stock": 152,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877548Z"
+  },
+  {
+    "_id": "6931ba8c7fcf9ea8954cbab8",
+    "title": "Essential Photography",
+    "description": "High-quality photography perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 89.33,
+    "category": "books",
+    "rating": 2.3,
+    "stock": 298,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877561Z"
+  },
+  {
+    "_id": "6931ba8c1bd10e7758986476",
+    "title": "Modern Shoes",
+    "description": "High-quality shoes perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 143.21,
+    "category": "clothing",
+    "rating": 4.7,
+    "stock": 250,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877574Z"
+  },
+  {
+    "_id": "6931ba8c22b2bd137bf5f961",
+    "title": "Training Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 180.08,
+    "category": "sports",
+    "rating": 1.2,
+    "stock": 78,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877586Z"
+  },
+  {
+    "_id": "6931ba8cf47c290ee3d715d6",
+    "title": "Digital Keyboard",
+    "description": "High-quality keyboard perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 180.45,
+    "category": "electronics",
+    "rating": 3.3,
+    "stock": 460,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877599Z"
+  },
+  {
+    "_id": "6931ba8cdd22aca2b1996e50",
+    "title": "Deluxe Mirror",
+    "description": "High-quality mirror perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 207.71,
+    "category": "home",
+    "rating": 2.8,
+    "stock": 142,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877613Z"
+  },
+  {
+    "_id": "6931ba8cb9cb8183990937e1",
+    "title": "Pro Dumbbells",
+    "description": "High-quality dumbbells perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 282.12,
+    "category": "sports",
+    "rating": 1.7,
+    "stock": 9,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877626Z"
+  },
+  {
+    "_id": "6931ba8cdd918597e520861f",
+    "title": "Comfort Rug",
+    "description": "High-quality rug perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 171.69,
+    "category": "home",
+    "rating": 2.1,
+    "stock": 93,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877638Z"
+  },
+  {
+    "_id": "6931ba8c462950065656d13c",
+    "title": "Luxury Blanket",
+    "description": "High-quality blanket perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 184.08,
+    "category": "home",
+    "rating": 3.0,
+    "stock": 385,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877651Z"
+  },
+  {
+    "_id": "6931ba8c45810ae0891ca297",
+    "title": "Introduction to Cooking",
+    "description": "High-quality cooking perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 256.95,
+    "category": "books",
+    "rating": 3.0,
+    "stock": 400,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877666Z"
+  },
+  {
+    "_id": "6931ba8cc86e707d4f0e79d6",
+    "title": "Modern Dress",
+    "description": "High-quality dress perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 118.39,
+    "category": "clothing",
+    "rating": 3.5,
+    "stock": 299,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877680Z"
+  },
+  {
+    "_id": "6931ba8c2811bdbfe38cefaf",
+    "title": "Mastering Photography",
+    "description": "High-quality photography perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 218.16,
+    "category": "books",
+    "rating": 2.1,
+    "stock": 339,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877693Z"
+  },
+  {
+    "_id": "6931ba8c790ba07ea6ebc8ca",
+    "title": "Essential Rug",
+    "description": "High-quality rug perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 41.7,
+    "category": "home",
+    "rating": 1.1,
+    "stock": 426,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877707Z"
+  },
+  {
+    "_id": "6931ba8c1f696dcf1530bcab",
+    "title": "Training Resistance Bands",
+    "description": "High-quality resistance bands perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 73.61,
+    "category": "sports",
+    "rating": 4.3,
+    "stock": 320,
+    "tags": [
+      "sample",
+      "seed",
+      "sports"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877723Z"
+  },
+  {
+    "_id": "6931ba8c3754eb33d6d978a9",
+    "title": "Modern Rug",
+    "description": "High-quality rug perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 211.06,
+    "category": "home",
+    "rating": 3.3,
+    "stock": 33,
+    "tags": [
+      "sample",
+      "seed",
+      "home"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877736Z"
+  },
+  {
+    "_id": "6931ba8c2edeb4d0fa9ae06a",
+    "title": "Guide to Cooking",
+    "description": "High-quality cooking perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 202.0,
+    "category": "books",
+    "rating": 4.4,
+    "stock": 165,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877749Z"
+  },
+  {
+    "_id": "6931ba8c18780b0e8565ecf3",
+    "title": "Radiant Oil",
+    "description": "High-quality oil perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 213.06,
+    "category": "beauty",
+    "rating": 4.8,
+    "stock": 469,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877762Z"
+  },
+  {
+    "_id": "6931ba8c51a060ced37fdd83",
+    "title": "Classic Dress",
+    "description": "High-quality dress perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 40.41,
+    "category": "clothing",
+    "rating": 3.4,
+    "stock": 224,
+    "tags": [
+      "sample",
+      "seed",
+      "clothing"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877775Z"
+  },
+  {
+    "_id": "6931ba8c91005d12e74a1a84",
+    "title": "Ultra Smartwatch",
+    "description": "High-quality smartwatch perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 126.8,
+    "category": "electronics",
+    "rating": 1.4,
+    "stock": 385,
+    "tags": [
+      "sample",
+      "seed",
+      "electronics"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877789Z"
+  },
+  {
+    "_id": "6931ba8c77691aa08910b9de",
+    "title": "Organic Serum",
+    "description": "High-quality serum perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 55.26,
+    "category": "beauty",
+    "rating": 3.0,
+    "stock": 181,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877801Z"
+  },
+  {
+    "_id": "6931ba8c220298a5982794f8",
+    "title": "Radiant Moisturizer",
+    "description": "High-quality moisturizer perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 204.14,
+    "category": "beauty",
+    "rating": 1.6,
+    "stock": 121,
+    "tags": [
+      "sample",
+      "seed",
+      "beauty"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877814Z"
+  },
+  {
+    "_id": "6931ba8c633ec5abf959f962",
+    "title": "Complete Photography",
+    "description": "High-quality photography perfect for everyday use. Features premium materials and excellent craftsmanship.",
+    "price": 147.19,
+    "category": "books",
+    "rating": 4.2,
+    "stock": 21,
+    "tags": [
+      "sample",
+      "seed",
+      "books"
+    ],
+    "createdAt": "2025-12-04T16:45:00.877827Z"
+  }
+]

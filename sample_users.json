@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "6931ba8cd0ad57f847fb29aa",
+    "name": "Jon Snow",
+    "email": "jon_snow@gameofthron.es",
+    "password": "$2b$12$0b14d501a594442a01c6859541bcb3e8164d183d32937b8518354"
+  },
+  {
+    "_id": "6931ba8c98a458c75440dd57",
+    "name": "Daenerys Targaryen",
+    "email": "daenerys_targaryen@gameofthron.es",
+    "password": "$2b$12$6cf615d5bcaac778352a8f1f3360d23f02f34ec182e259897fd6c"
+  },
+  {
+    "_id": "6931ba8c0ef70643056862b6",
+    "name": "Tyrion Lannister",
+    "email": "tyrion_lannister@gameofthron.es",
+    "password": "$2b$12$5906ac361a137e2d286465cd6588ebb5ac3f5ae955001100bc415"
+  },
+  {
+    "_id": "6931ba8c6463ceca4bc6d24a",
+    "name": "Arya Stark",
+    "email": "arya_stark@gameofthron.es",
+    "password": "$2b$12$b97873a40f73abedd8d685a7cd5e5f85e4a9cfb83eac26886640a"
+  },
+  {
+    "_id": "6931ba8c9493008214bb3275",
+    "name": "Sansa Stark",
+    "email": "sansa_stark@gameofthron.es",
+    "password": "$2b$12$8b2c86ea9cf2ea4eb517fd1e06b74f399e7fec0fef92e3b482a6c"
+  },
+  {
+    "_id": "6931ba8c4cf7c5df0c173ddd",
+    "name": "Cersei Lannister",
+    "email": "cersei_lannister@gameofthron.es",
+    "password": "$2b$12$598a1a400c1dfdf36974e69d7e1bc98593f2e15015eed8e9b7e47"
+  },
+  {
+    "_id": "6931ba8c1c3c7b07c8f7a45a",
+    "name": "Jaime Lannister",
+    "email": "jaime_lannister@gameofthron.es",
+    "password": "$2b$12$5860836e8f13fc9837539a597d4086bfc0299e54ad92148d54538"
+  },
+  {
+    "_id": "6931ba8c0e84a3ed31a5241c",
+    "name": "Ned Stark",
+    "email": "ned_stark@gameofthron.es",
+    "password": "$2b$12$57f3ebab63f156fd8f776ba645a55d96360a15eeffc8b0e4afe4c"
+  },
+  {
+    "_id": "6931ba8c00c7951219efa0ab",
+    "name": "Catelyn Stark",
+    "email": "catelyn_stark@gameofthron.es",
+    "password": "$2b$12$9323dd6786ebcbf3ac87357cc78ba1abfda6cf5e55cd01097b90d"
+  },
+  {
+    "_id": "6931ba8cc23fccc73b52e774",
+    "name": "Robb Stark",
+    "email": "robb_stark@gameofthron.es",
+    "password": "$2b$12$aa4a9ea03fcac15b5fc63c949ac34e7b0fd17906716ac3b8e58c5"
+  },
+  {
+    "_id": "6931ba8cb325b4de8124450a",
+    "name": "Bran Stark",
+    "email": "bran_stark@gameofthron.es",
+    "password": "$2b$12$53d453b0c08b6b38ae91515dc88d25fbecdd1d6001f022419629d"
+  },
+  {
+    "_id": "6931ba8c620dc3ba8687895a",
+    "name": "Theon Greyjoy",
+    "email": "theon_greyjoy@gameofthron.es",
+    "password": "$2b$12$b3d17ebbe4f2b75d27b6309cfaae1487b667301a73951e7d523a0"
+  },
+  {
+    "_id": "6931ba8c181d2d3719da8b45",
+    "name": "Jorah Mormont",
+    "email": "jorah_mormont@gameofthron.es",
+    "password": "$2b$12$48caafb68583936afd0d78a7bfd7046d2492fad94f3c485915f74"
+  },
+  {
+    "_id": "6931ba8c91e37e1c08f65bd4",
+    "name": "Samwell Tarly",
+    "email": "samwell_tarly@gameofthron.es",
+    "password": "$2b$12$c6863e1db9b396ed31a36988639513a1c73a065fab83681f4b77a"
+  },
+  {
+    "_id": "6931ba8c014ff1b8383a2b61",
+    "name": "Brienne of Tarth",
+    "email": "brienne_of_tarth@gameofthron.es",
+    "password": "$2b$12$c63c2d34ebe84032ad47b87af194fedd17dacf8222b2ea7f4ebfe"
+  },
+  {
+    "_id": "6931ba8ca57ae22652f755f5",
+    "name": "Petyr Baelish",
+    "email": "petyr_baelish@gameofthron.es",
+    "password": "$2b$12$17a3379984b560dc311bb921b7a46b28aa5cb495667382f887a44"
+  },
+  {
+    "_id": "6931ba8c5c6b993ce4f76bf9",
+    "name": "Varys",
+    "email": "varys@gameofthron.es",
+    "password": "$2b$12$69bfb918de05145fba9dcee9688dfb23f6115845885e48fa39945"
+  },
+  {
+    "_id": "6931ba8c8f443d0db488e205",
+    "name": "Melisandre",
+    "email": "melisandre@gameofthron.es",
+    "password": "$2b$12$d2042d75a67922194c045da2600e1c92ff6d87e8fb6e020860666"
+  },
+  {
+    "_id": "6931ba8c2593c16ebbc2db9e",
+    "name": "Davos Seaworth",
+    "email": "davos_seaworth@gameofthron.es",
+    "password": "$2b$12$5790ac3d0b8ae8afc72c2c6fb97654f2b73651c328de0a3b74854"
+  },
+  {
+    "_id": "6931ba8c94b910c5d6dd3a90",
+    "name": "Margaery Tyrell",
+    "email": "margaery_tyrell@gameofthron.es",
+    "password": "$2b$12$7535d8f2d8c35d958995610f971287288ab5e8c82a3c4fdc2b6fb"
+  }
+]

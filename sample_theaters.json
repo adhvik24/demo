@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "6931ba8c4082830b67983462",
+    "theaterId": 1000,
+    "location": {
+      "address": {
+        "street1": "1452 Oak St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "WA",
+        "zipcode": "16463"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -92.75531,
+          31.30139
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cc2287a39b31c5e1a",
+    "theaterId": 1001,
+    "location": {
+      "address": {
+        "street1": "7039 Broadway St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "WA",
+        "zipcode": "52039"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -104.36208,
+          40.72984
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cf9f720d35cd10fed",
+    "theaterId": 1002,
+    "location": {
+      "address": {
+        "street1": "4813 Main St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "GA",
+        "zipcode": "24585"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -106.60827,
+          36.30857
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cb38c89fba6e8403b",
+    "theaterId": 1003,
+    "location": {
+      "address": {
+        "street1": "4544 Main St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "NC",
+        "zipcode": "11092"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -120.20393,
+          40.84895
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c0da36f15d8287e03",
+    "theaterId": 1004,
+    "location": {
+      "address": {
+        "street1": "8773 Broadway St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "AZ",
+        "zipcode": "61563"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -81.56973,
+          25.44093
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8ca3f8caeed0842ea1",
+    "theaterId": 1005,
+    "location": {
+      "address": {
+        "street1": "6362 Maple St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "AZ",
+        "zipcode": "90274"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -74.25602,
+          41.47656
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c964972a9a32bee6e",
+    "theaterId": 1006,
+    "location": {
+      "address": {
+        "street1": "2478 Maple St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "MA",
+        "zipcode": "51614"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -120.1346,
+          37.79108
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c5ebce667eee4c12c",
+    "theaterId": 1007,
+    "location": {
+      "address": {
+        "street1": "4472 Maple St",
+        "street2": null,
+        "city": "Buffalo",
+        "state": "NY",
+        "zipcode": "40266"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -90.00744,
+          30.5419
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c1c2d7a267236fef3",
+    "theaterId": 1008,
+    "location": {
+      "address": {
+        "street1": "3423 Market St",
+        "street2": "Suite 324",
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": "90879"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -96.07325,
+          32.7975
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c6c9db6f98ab017ee",
+    "theaterId": 1009,
+    "location": {
+      "address": {
+        "street1": "4125 Maple St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "CO",
+        "zipcode": "15144"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -92.21105,
+          37.38704
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c464d769082d7b1cf",
+    "theaterId": 1010,
+    "location": {
+      "address": {
+        "street1": "9052 Market St",
+        "street2": null,
+        "city": "Dallas",
+        "state": "TX",
+        "zipcode": "52396"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -98.29951,
+          29.29309
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c15ab2b1ba1bbf928",
+    "theaterId": 1011,
+    "location": {
+      "address": {
+        "street1": "819 Market St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "OH",
+        "zipcode": "84120"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -74.33559,
+          45.70414
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c2b64c7a123947d80",
+    "theaterId": 1012,
+    "location": {
+      "address": {
+        "street1": "8184 Market St",
+        "street2": "Suite 437",
+        "city": "Springfield",
+        "state": "PA",
+        "zipcode": "72352"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -98.13691,
+          35.60501
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8ce4ad32052099511f",
+    "theaterId": 1013,
+    "location": {
+      "address": {
+        "street1": "2743 Broadway St",
+        "street2": null,
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "87983"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -91.37989,
+          38.49225
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8ce145616842b488b9",
+    "theaterId": 1014,
+    "location": {
+      "address": {
+        "street1": "1890 Maple St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "CO",
+        "zipcode": "92441"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -93.85004,
+          27.10407
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c958f5298a729bf00",
+    "theaterId": 1015,
+    "location": {
+      "address": {
+        "street1": "2032 Market St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "GA",
+        "zipcode": "64346"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -100.39966,
+          33.01101
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cab4148c1569fd3de",
+    "theaterId": 1016,
+    "location": {
+      "address": {
+        "street1": "7949 Oak St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "OH",
+        "zipcode": "94626"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -116.26203,
+          28.72927
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c7de089a8095ec12d",
+    "theaterId": 1017,
+    "location": {
+      "address": {
+        "street1": "5656 Oak St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "CO",
+        "zipcode": "31753"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -91.45405,
+          34.34959
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cb506737f341cce70",
+    "theaterId": 1018,
+    "location": {
+      "address": {
+        "street1": "8007 Maple St",
+        "street2": "Suite 274",
+        "city": "Rochester",
+        "state": "NY",
+        "zipcode": "73369"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -82.25086,
+          37.56707
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cc1f8f306d140dd5e",
+    "theaterId": 1019,
+    "location": {
+      "address": {
+        "street1": "1789 Maple St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "NC",
+        "zipcode": "50957"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -122.71863,
+          43.20385
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c348ca421f81884fc",
+    "theaterId": 1020,
+    "location": {
+      "address": {
+        "street1": "9505 Market St",
+        "street2": "Suite 259",
+        "city": "Springfield",
+        "state": "OH",
+        "zipcode": "90381"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -73.14214,
+          37.97385
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c0e0616beab7553cc",
+    "theaterId": 1021,
+    "location": {
+      "address": {
+        "street1": "1386 Oak St",
+        "street2": null,
+        "city": "Dallas",
+        "state": "TX",
+        "zipcode": "22178"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -77.66749,
+          47.07254
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c7ab733d9e6bace70",
+    "theaterId": 1022,
+    "location": {
+      "address": {
+        "street1": "7887 Main St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "CO",
+        "zipcode": "70455"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -75.79132,
+          31.77418
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c86b181479332713b",
+    "theaterId": 1023,
+    "location": {
+      "address": {
+        "street1": "7163 Oak St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "AZ",
+        "zipcode": "54852"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -92.96197,
+          30.6677
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cd19517469a9d5a03",
+    "theaterId": 1024,
+    "location": {
+      "address": {
+        "street1": "2376 Maple St",
+        "street2": null,
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zipcode": "93379"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -77.83916,
+          43.16987
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8c8693a59e4f6f510f",
+    "theaterId": 1025,
+    "location": {
+      "address": {
+        "street1": "6722 Market St",
+        "street2": null,
+        "city": "Joliet",
+        "state": "IL",
+        "zipcode": "18180"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -102.9543,
+          38.17324
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cbd5dd3b65668a736",
+    "theaterId": 1026,
+    "location": {
+      "address": {
+        "street1": "6002 Oak St",
+        "street2": "Suite 443",
+        "city": "Houston",
+        "state": "TX",
+        "zipcode": "26455"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -116.34619,
+          26.7219
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8cb76f1a67c9628875",
+    "theaterId": 1027,
+    "location": {
+      "address": {
+        "street1": "3144 Oak St",
+        "street2": null,
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "85751"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -95.60505,
+          42.54192
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8ce900759f1b8dc488",
+    "theaterId": 1028,
+    "location": {
+      "address": {
+        "street1": "1549 Market St",
+        "street2": null,
+        "city": "Springfield",
+        "state": "VA",
+        "zipcode": "96997"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -69.25657,
+          26.87397
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6931ba8ce807e955f42b94c4",
+    "theaterId": 1029,
+    "location": {
+      "address": {
+        "street1": "7852 Maple St",
+        "street2": "Suite 126",
+        "city": "Springfield",
+        "state": "GA",
+        "zipcode": "96025"
+      },
+      "geo": {
+        "type": "Point",
+        "coordinates": [
+          -67.5492,
+          44.4135
+        ]
+      }
+    }
+  }
+]
