@@ -1,0 +1,21 @@
+{
+  "name": "rubiks-cube-solver",
+  "version": "1.0.0",
+  "description": "A Rubik's cube solver with testing script",
+  "main": "rubiks-cube-solver.js",
+  "scripts": {
+    "test": "node test-rubiks-cube.js",
+    "demo": "node demo-rubiks-cube.js"
+  },
+  "keywords": [
+    "rubiks-cube",
+    "puzzle",
+    "solver",
+    "cube"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
