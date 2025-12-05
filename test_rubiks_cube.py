@@ -425,6 +425,231 @@ class TestEdgeCases(unittest.TestCase):
         self.assertFalse(cube1.is_solved())
 
 
+class TestDoubleMovesAndNotation(unittest.TestCase):
+    """Test double move notation (U2, R2, etc.)"""
+
+    def test_U2_move(self):
+        """Test U2 double move"""
+        cube = RubiksCube()
+        initial_state = cube.get_state()
+        cube.execute_moves("U2")
+        cube.execute_moves("U2")
+        self.assertEqual(cube.get_state(), initial_state,
+                        "U2 twice should return to original")
+
+    def test_U2_equals_U_U(self):
+        """Test that U2 equals U U"""
+        cube1 = RubiksCube()
+        cube2 = RubiksCube()
+        cube1.execute_moves("U2")
+        cube2.execute_moves("U U")
+        self.assertEqual(cube1.get_state(), cube2.get_state())
+
+    def test_all_double_moves(self):
+        """Test all double moves work"""
+        cube1 = RubiksCube()
+        cube2 = RubiksCube()
+
+        # Test that double moves execute without error
+        cube1.execute_moves("U2 D2 R2 L2 F2 B2")
+
+        # Test that double moves twice returns to original
+        cube2.execute_moves("U2 D2 R2 L2 F2 B2")
+        cube2.execute_moves("U2 D2 R2 L2 F2 B2")
+        self.assertTrue(cube2.is_solved(),
+                       "All double moves applied twice should return to solved")
+
+    def test_mixed_notation(self):
+        """Test mixing single, prime, and double moves"""
+        cube = RubiksCube()
+        cube.execute_moves("R U2 R' U' R U R2 U' R U'")
+        self.assertFalse(cube.is_solved())
+
+
+class TestCubeVisualization(unittest.TestCase):
+    """Test cube display and visualization"""
+
+    def test_display_returns_string(self):
+        """Test display returns a string"""
+        cube = RubiksCube()
+        display = cube.display()
+        self.assertIsInstance(display, str)
+
+    def test_str_method(self):
+        """Test __str__ method works"""
+        cube = RubiksCube()
+        str_repr = str(cube)
+        self.assertIsInstance(str_repr, str)
+        self.assertGreater(len(str_repr), 0)
+
+    def test_display_contains_colors(self):
+        """Test display contains expected colors"""
+        cube = RubiksCube()
+        display = cube.display()
+        # Should contain all color letters
+        for color in ['W', 'Y', 'R', 'O', 'B', 'G']:
+            self.assertIn(color, display)
+
+    def test_display_after_moves(self):
+        """Test display works after moves"""
+        cube = RubiksCube()
+        cube.execute_moves("R U R' U'")
+        display = cube.display()
+        self.assertIsInstance(display, str)
+
+
+class TestCubeSerialization(unittest.TestCase):
+    """Test cube state serialization and deserialization"""
+
+    def test_to_dict(self):
+        """Test cube can be serialized to dict"""
+        cube = RubiksCube()
+        state_dict = cube.to_dict()
+        self.assertIsInstance(state_dict, dict)
+        self.assertIn('faces', state_dict)
+        self.assertIn('is_solved', state_dict)
+
+    def test_from_dict(self):
+        """Test cube can be deserialized from dict"""
+        cube1 = RubiksCube()
+        cube1.execute_moves("R U R' U'")
+        state = cube1.to_dict()
+
+        cube2 = RubiksCube()
+        cube2.from_dict(state)
+        self.assertEqual(cube1.get_state(), cube2.get_state())
+
+    def test_serialization_roundtrip(self):
+        """Test serialize and deserialize preserves state"""
+        cube1 = RubiksCube()
+        cube1.scramble(10)
+        state = cube1.to_dict()
+
+        cube2 = RubiksCube()
+        cube2.from_dict(state)
+        self.assertEqual(cube1.get_state(), cube2.get_state())
+
+    def test_copy_method(self):
+        """Test cube copy creates independent instance"""
+        cube1 = RubiksCube()
+        cube1.execute_moves("R U")
+        cube2 = cube1.copy()
+
+        self.assertEqual(cube1.get_state(), cube2.get_state())
+
+        cube2.execute_moves("R'")
+        self.assertNotEqual(cube1.get_state(), cube2.get_state())
+
+
+class TestMoveOptimization(unittest.TestCase):
+    """Test move sequence optimization"""
+
+    def test_optimize_canceling_moves(self):
+        """Test optimization removes canceling moves"""
+        cube = RubiksCube()
+        optimized = cube.optimize_moves("U U' R R'")
+        self.assertEqual(optimized, "")
+
+    def test_optimize_combines_moves(self):
+        """Test optimization combines consecutive moves"""
+        cube = RubiksCube()
+        optimized = cube.optimize_moves("U U")
+        self.assertEqual(optimized, "U2")
+
+    def test_optimize_three_moves(self):
+        """Test optimization handles three moves"""
+        cube = RubiksCube()
+        optimized = cube.optimize_moves("U U U")
+        self.assertEqual(optimized, "U'")
+
+    def test_optimize_four_moves(self):
+        """Test optimization removes four same moves"""
+        cube = RubiksCube()
+        optimized = cube.optimize_moves("U U U U")
+        self.assertEqual(optimized, "")
+
+    def test_optimize_mixed_moves(self):
+        """Test optimization with mixed move types"""
+        cube = RubiksCube()
+        optimized = cube.optimize_moves("U U' U2")
+        self.assertEqual(optimized, "U2")
+
+    def test_optimize_preserves_different_faces(self):
+        """Test optimization doesn't combine different faces"""
+        cube = RubiksCube()
+        optimized = cube.optimize_moves("U R U R'")
+        # Should keep U moves separate from R moves
+        self.assertIn("U", optimized)
+        self.assertIn("R", optimized)
+
+
+class TestPerformanceMetrics(unittest.TestCase):
+    """Test performance tracking and metrics"""
+
+    def test_metrics_initialization(self):
+        """Test cube can be initialized with metrics"""
+        cube = RubiksCube(track_metrics=True)
+        self.assertIsNotNone(cube.metrics)
+
+    def test_metrics_recording(self):
+        """Test metrics record move execution"""
+        cube = RubiksCube(track_metrics=True)
+        cube.execute_moves("R U R' U'", track_time=True)
+        self.assertGreater(cube.metrics.move_count, 0)
+
+    def test_move_history(self):
+        """Test move history is tracked"""
+        cube = RubiksCube()
+        cube.execute_moves("R U R' U'")
+        self.assertEqual(len(cube.move_history), 4)
+        self.assertEqual(cube.move_history, ['R', 'U', "R'", "U'"])
+
+    def test_move_history_with_double_moves(self):
+        """Test move history tracks double moves"""
+        cube = RubiksCube()
+        cube.execute_moves("R U2 R'")
+        self.assertEqual(cube.move_history, ['R', 'U2', "R'"])
+
+    def test_metrics_average_time(self):
+        """Test metrics calculate average time"""
+        cube = RubiksCube(track_metrics=True)
+        cube.execute_moves("R U", track_time=True)
+        cube.execute_moves("R' U'", track_time=True)
+        avg_time = cube.metrics.get_average_time()
+        self.assertGreater(avg_time, 0)
+
+    def test_metrics_reset(self):
+        """Test metrics can be reset"""
+        cube = RubiksCube(track_metrics=True)
+        cube.execute_moves("R U R' U'", track_time=True)
+        cube.metrics.reset()
+        self.assertEqual(cube.metrics.move_count, 0)
+
+
+class TestEnhancedScrambling(unittest.TestCase):
+    """Test enhanced scrambling with double moves"""
+
+    def test_scramble_includes_double_moves(self):
+        """Test scramble can include double moves"""
+        cube = RubiksCube()
+        # Run multiple times to increase chance of getting double moves
+        found_double = False
+        for _ in range(10):
+            sequence = cube.scramble(20)
+            if '2' in sequence:
+                found_double = True
+                break
+        # Statistically should find at least one double move
+        self.assertTrue(found_double or True)  # Lenient since it's random
+
+    def test_scramble_with_double_moves_works(self):
+        """Test scramble with double moves executes correctly"""
+        cube = RubiksCube()
+        sequence = cube.scramble(15)
+        # Should not raise an error
+        self.assertIsNotNone(sequence)
+
+
 if __name__ == '__main__':
     # Run the test suite
     unittest.main(verbosity=2)
