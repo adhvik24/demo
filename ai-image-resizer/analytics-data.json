@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2025-12-11T23:58:43.729Z",
+    "originalSize": 2048000,
+    "processedSize": 512000,
+    "format": "webp",
+    "quality": 80,
+    "width": 800,
+    "height": 600,
+    "fit": "cover",
+    "processingTime": 245,
+    "compressionRatio": "75.00"
+  },
+  {
+    "timestamp": "2025-12-11T23:59:07.260Z",
+    "originalSize": 1800000,
+    "processedSize": 450000,
+    "format": "jpeg",
+    "quality": 85,
+    "width": 1024,
+    "height": 768,
+    "fit": "cover",
+    "processingTime": 180,
+    "compressionRatio": "75.00"
+  },
+  {
+    "timestamp": "2025-12-11T23:59:07.280Z",
+    "originalSize": 2500000,
+    "processedSize": 600000,
+    "format": "png",
+    "quality": 90,
+    "width": 1200,
+    "height": 900,
+    "fit": "contain",
+    "processingTime": 320,
+    "compressionRatio": "76.00"
+  },
+  {
+    "timestamp": "2025-12-11T23:59:07.296Z",
+    "originalSize": 1200000,
+    "processedSize": 300000,
+    "format": "webp",
+    "quality": 75,
+    "width": 800,
+    "height": 600,
+    "fit": "cover",
+    "processingTime": 150,
+    "compressionRatio": "75.00"
+  },
+  {
+    "timestamp": "2025-12-11T23:59:07.310Z",
+    "originalSize": 3000000,
+    "processedSize": 750000,
+    "format": "jpeg",
+    "quality": 80,
+    "width": 1920,
+    "height": 1080,
+    "fit": "fill",
+    "processingTime": 400,
+    "compressionRatio": "75.00"
+  }
+]

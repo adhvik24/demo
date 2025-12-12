@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import sharp from "sharp";
 
 export async function POST(request: NextRequest) {
+  const startTime = Date.now();
+  
   try {
     const formData = await request.formData();
     const image = formData.get("image") as File;
@@ -16,6 +18,7 @@ export async function POST(request: NextRequest) {
 
     const options = JSON.parse(optionsStr);
     const buffer = Buffer.from(await image.arrayBuffer());
+    const originalSize = buffer.length;
 
     let sharpInstance = sharp(buffer);
 
@@ -63,6 +66,25 @@ export async function POST(request: NextRequest) {
           .jpeg({ quality: options.quality })
           .toBuffer();
     }
+
+    const processingTime = Date.now() - startTime;
+    const processedSize = outputBuffer.length;
+
+    // Track analytics asynchronously (don't wait for it)
+    fetch(`${request.nextUrl.origin}/api/analytics`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        originalSize,
+        processedSize,
+        format: options.format,
+        quality: options.quality,
+        width: options.width,
+        height: options.height,
+        fit: options.fit,
+        processingTime,
+      }),
+    }).catch((err) => console.error("Failed to track analytics:", err));
 
     // Return the processed image
     return new NextResponse(outputBuffer as unknown as BodyInit, {
